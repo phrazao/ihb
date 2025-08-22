@@ -77,14 +77,15 @@ code, pre {
     font-family: 'Basically A Mono Style 1', monospace;
 }
 
-/* Limita o tamanho da fonte no nome do autor e hero */
+
+/* Limita o tamanho da fonte no nome do autor e hero *
 .author-name, .hero-title {
-    font-size: 2rem !important; /* Ajusta para um tamanho razoável, ex.: 2rem (32px) */
-    max-width: 100%; /* Garante que não ultrapasse o container */
-    overflow-wrap: break-word; /* Quebra palavras longas se necessário */
+    font-size: 2rem !important; /* Ajusta para um tamanho razoável, ex.: 2rem (32px) *
+    max-width: 100%; /* Garante que não ultrapasse o container *
+    overflow-wrap: break-word; /* Quebra palavras longas se necessário *
 }
 
-/* Navbar fixa e transparente */
+/* Navbar fixa e transparente *
 .navbar {
     position: fixed;
     top: 0;
@@ -96,11 +97,11 @@ code, pre {
     transition: background-color 0.3s ease;
     padding: 0.75rem 0;
 }
-
-/* Container interno */
+*/
+/* Container interno *
 .navbar-container {
-    width: 100%; /* Usa 100% como base */
-    max-width: 940px; /* Limite máximo */
+    width: 100%; /* Usa 100% como base *
+    max-width: 940px; /* Limite máximo *
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
@@ -108,13 +109,14 @@ code, pre {
     justify-content: space-between;
 }
 
-/* Força 940px acima de 940px */
+/* Força 940px acima de 940px *
 @media (min-width: 940px) {
     .navbar-container {
-        width: 940px; /* Força 940px */
+        width: 940px; /* Força 940px *
         padding: 0 2rem;
     }
 }
+    */
 
 /* Logo */
 .navbar-brand {
@@ -154,5 +156,3 @@ display: flex !important;
 .navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-

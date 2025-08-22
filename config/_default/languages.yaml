@@ -15,9 +15,9 @@ pt:
   title: Portuguese website title...
   params:
     description: Site description in Portuguese...
-  menu:
-    main:
-      - name: Sobre
-        url: '#about'
-        weight: 1
+#  menu:
+#    main:
+#      - name: Sobre
+#        url: '#about'
+#        weight: 1
 
