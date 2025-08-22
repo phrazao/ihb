@@ -1,26 +1,1555 @@
-<!doctype html><html lang=en dir=ltr data-wc-theme-default=system><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=generator content="Hugo Blox Builder 0.5.2"><meta name=author content="吳健雄"><meta name=description content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."><link rel=alternate hreflang=pt href=https://impossibilis.com/pt/tags/javascript/><link rel=alternate hreflang=en href=https://impossibilis.com/en/tags/javascript/><link rel=stylesheet href=/css/themes/emerald.min.css>
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: August 23, 2025 --><html lang="en" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.5.2" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="吳健雄" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
+
+  
+    <link rel="alternate" hreflang="pt" href="http://localhost:1313/pt/tags/javascript/" />
+  
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/tags/javascript/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+  
+
+  
+  
+  
     
 
+  
+  
+    
+      <link rel="stylesheet" href="/css/main.css">
+    
+  
+
+
+  
+
+  
+  
+  
+
+  
+    
+    <link href="/css/custom.min.e13d8295fcc7648a0ceddb22126728fe84dc06421314e794cea8ad298fc2582b.css" rel="stylesheet" />
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/en/tags/javascript/index.xml" type="application/rss+xml" title="impossibilis" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_a70dd8e69f69b94b.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_8814e149975c9ab2.png" />
+
+  <link rel="canonical" href="http://localhost:1313/en/tags/javascript/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="impossibilis" />
+  <meta property="og:url" content="http://localhost:1313/en/tags/javascript/" />
+  <meta property="og:title" content="JavaScript | impossibilis" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/logo.svg" />
+    <meta property="twitter:image" content="http://localhost:1313/media/logo.svg" /><meta property="og:locale" content="en" />
+  
+    
+      <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+
+
+
+  <title>JavaScript | impossibilis</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
   
   
     
       
-        <link rel="stylesheet" href="/css/main.74c3beea9d48342b8a5df8991655b23c1ba3ea11c0cff5ceb37a8539d94b8524.css" integrity="sha256-dMO&#43;6p1INCuKXfiZFlWyPBuj6hHAz/XOs3qFOdlLhSQ=" crossorigin="anonymous">
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
       
     
   
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+
+   
+  .search-close > svg {
+    height: calc(64px * var(--pagefind-ui-scale));
+    width: calc(64px * var(--pagefind-ui-scale));
+  }
+</style>
+
+<script>
+  
+  let searchWrapper = null;
+
+  window.addEventListener('DOMContentLoaded', (event) => {
+    
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+
+    
+    searchWrapper = document.getElementById('search-wrapper');
+
+    
+    let triggers = document.querySelectorAll('[data-search-toggle]');
+    triggers.forEach(trigger =>
+      trigger.addEventListener('click', handleSearchToggle)
+    );
+  });
+
+  function handleSearchToggle(event) {
+    if (!searchWrapper) return;
+
+    const isHidden = searchWrapper.classList.contains('hidden');
+    searchWrapper.classList.toggle('hidden');
+    document.body.style.overflow = isHidden ? 'hidden' : '';
+
+    const searchInput = searchWrapper.querySelector("input");
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
+
+    if (!searchWrapper.classList.contains('hidden')) {
+      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
+
+      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
+        clearTrigger.setAttribute('listenerOnClick', 'true');
+
+        clearTrigger.addEventListener('click', () => {
+          searchInput.focus();
+        });
+      }
+    }
+  }
+
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
+      searchWrapper.classList.add('hidden');
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
-<link href=/css/custom.min.4ea68eaa860f3fa936babd707e02f74aec8756b79c240c1e1d5e7759f874d481.css rel=stylesheet><script>window.hbb={defaultTheme:document.documentElement.dataset.wcThemeDefault,setDarkTheme:()=>{document.documentElement.classList.add("dark"),document.documentElement.style.colorScheme="dark"},setLightTheme:()=>{document.documentElement.classList.remove("dark"),document.documentElement.style.colorScheme="light"}},console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`),"wc-color-theme"in localStorage?localStorage.getItem("wc-color-theme")==="dark"?window.hbb.setDarkTheme():window.hbb.setLightTheme():(window.hbb.defaultTheme==="dark"?window.hbb.setDarkTheme():window.hbb.setLightTheme(),window.hbb.defaultTheme==="system"&&(window.matchMedia("(prefers-color-scheme: dark)").matches?window.hbb.setDarkTheme():window.hbb.setLightTheme()))</script><script>document.addEventListener("DOMContentLoaded",function(){let e=document.querySelectorAll("li input[type='checkbox'][disabled]");e.forEach(e=>{e.parentElement.parentElement.classList.add("task-list")});const t=document.querySelectorAll(".task-list li");t.forEach(e=>{let t=Array.from(e.childNodes).filter(e=>e.nodeType===3&&e.textContent.trim().length>1);if(t.length>0){const n=document.createElement("label");t[0].after(n),n.appendChild(e.querySelector("input[type='checkbox']")),n.appendChild(t[0])}})})</script><link rel=alternate href=/en/tags/javascript/index.xml type=application/rss+xml title=impossibilis><link rel=icon type=image/png href=/media/icon_hu_a70dd8e69f69b94b.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu_8814e149975c9ab2.png><link rel=canonical href=https://impossibilis.com/en/tags/javascript/><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@GetResearchDev"><meta property="twitter:creator" content="@GetResearchDev"><meta property="og:site_name" content="impossibilis"><meta property="og:url" content="https://impossibilis.com/en/tags/javascript/"><meta property="og:title" content="JavaScript | impossibilis"><meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."><meta property="og:image" content="https://impossibilis.com/media/logo.svg"><meta property="twitter:image" content="https://impossibilis.com/media/logo.svg"><meta property="og:locale" content="en"><meta property="og:updated_time" content="2023-10-24T00:00:00+00:00"><title>JavaScript | impossibilis</title><style>@font-face{font-family:inter var;font-style:normal;font-weight:100 900;font-display:swap;src:url(/dist/font/Inter.var.woff2)format(woff2)}</style><link type=text/css rel=stylesheet href=/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css integrity="sha256-vnZutBkxehTsdp0hbpd5v+jzc3yA54D0ug2vtXpBpII="><script src=/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script><script>window.hbb.pagefind={baseUrl:"/"}</script><style>html.dark{--pagefind-ui-primary:#eeeeee;--pagefind-ui-text:#eeeeee;--pagefind-ui-background:#152028;--pagefind-ui-border:#152028;--pagefind-ui-tag:#152028}.search-close>svg{height:calc(64px * var(--pagefind-ui-scale));width:calc(64px * var(--pagefind-ui-scale))}</style><script>let searchWrapper=null;window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search",showSubResults:!0,baseUrl:window.hbb.pagefind.baseUrl,bundlePath:window.hbb.pagefind.baseUrl+"pagefind/"}),searchWrapper=document.getElementById("search-wrapper");let t=document.querySelectorAll("[data-search-toggle]");t.forEach(e=>e.addEventListener("click",handleSearchToggle))});function handleSearchToggle(){if(!searchWrapper)return;const n=searchWrapper.classList.contains("hidden");searchWrapper.classList.toggle("hidden"),document.body.style.overflow=n?"hidden":"";const t=searchWrapper.querySelector("input");if(t&&(t.value="",t.focus()),!searchWrapper.classList.contains("hidden")){let e=document.querySelector(".pagefind-ui__search-clear");e&&!e.hasAttribute("listenerOnClick")&&(e.setAttribute("listenerOnClick","true"),e.addEventListener("click",()=>{t.focus()}))}}document.addEventListener("keydown",e=>{e.key==="Escape"&&searchWrapper&&!searchWrapper.classList.contains("hidden")&&searchWrapper.classList.add("hidden")})</script><script defer src=/js/hugo-blox-en.min.793369654bc01792cf2278e18052e3adff8b32fb9b30b728641aec0db157a4a5.js integrity="sha256-eTNpZUvAF5LPInjhgFLjrf+LMvubMLcoZBrsDbFXpKU="></script></head><body class="dark:bg-hb-dark dark:text-white page-wrapper" id=top><div id=page-bg></div><div class="page-header sticky top-0 z-30"><header id=site-header class=header><nav class="navbar px-3 flex justify-start"><div class="order-0 h-full"><a class=navbar-brand href=/en/ title=impossibilis><svg viewBox="0 0 283.39998 83.400004" id="svg48" width="283.39999" height="83.400002"><style id="style2">.st0{fill:#f7323f;stroke:#fff;stroke-width:.7416;stroke-miterlimit:1}.st1{fill:url(#XMLID_28_)}.st2{fill:#18667a}.st3{fill:#135c6f}.st4{fill:#004352}.st5{fill:#f7323f}.st6{fill:url(#XMLID_29_)}</style><g id="Camada_1" transform="translate(-7.1,-8.1)"/><g id="Modo_de_isolamento" transform="translate(-7.1,-8.1)"><path id="XMLID_136_" class="st0" d="M21.2 70.3"/><linearGradient id="XMLID_28_" gradientUnits="userSpaceOnUse" x1="23.122" y1="76.328499" x2="90.119904" y2="68.102203"><stop offset=".58" style="stop-color:#F7323F" id="stop6"/><stop offset=".5924" style="stop-color:#E93543" id="stop8"/><stop offset=".616" style="stop-color:#C33E4D" id="stop10"/><stop offset=".6484" style="stop-color:#864C5D" id="stop12"/><stop offset=".6879" style="stop-color:#336073" id="stop14"/><stop offset=".7" style="stop-color:#18667A" id="stop16"/></linearGradient><path id="XMLID_133_" class="st1" d="m68.9 50.9h-9v4.8h4.7V68.2C63.8 68 62.9 67.9 61.9 67.9 59.7 68 57.7 68.5 56 69.6c-1.7 1-3 2.5-3.9 4.4-.2-1.8-1-3.3-2.4-4.4-1.4-1.1-3.2-1.7-5.4-1.7-2.3.1-4.3.7-6 1.8s-3 2.6-3.9 4.6c-.1-1-.2-1.8-.2-2.6C34.1 70.9 34.1 70 34 69.1v-.5h-8.4v4.8h4V86.5H25v4.8h13.5v-4.8h-3.8v-6.2c0-1.1.2-2 .7-2.9.4-.9 1-1.7 1.8-2.3.7-.6 1.6-1.2 2.5-1.5 1-.4 2-.5 3-.5 1.5.1 2.7.5 3.4 1.3.7.8 1.1 1.7 1.2 2.8v9.4h-4.6v4.8H56v-4.8h-3.8v-6.2c0-1.1.2-2 .7-2.9.4-.9 1-1.7 1.8-2.3.7-.6 1.6-1.2 2.5-1.5 1-.4 2-.5 3-.5 1.5.1 2.7.5 3.4 1.3s1.1 1.7 1.2 2.8v9.4h-4.6v4.8H73.7V86.7H69.9V72.8c0-.2.0-.5-.1-.7.1.1.2.1.3.2.4.3.9.6 1.6 1 .7.3 1.4.6 2.3.9.9.2 1.9.4 3.1.4 1.7.0 3.4-.3 4.9-1 1.5-.6 2.8-1.5 3.9-2.6 1.1-1.1 2-2.4 2.6-3.9s1-3 1-4.7c0-1.6-.3-3.2-1-4.6C87.9 56.3 87 55.1 85.9 54 84.8 52.9 83.5 52 82 51.4s-3.1-1-4.9-1c-1.1.0-2.1.2-3 .5s-1.7.7-2.4 1c-.7.4-1.3.8-1.7 1.2-.4.4-.7.6-.7.8m12.9 13.5c-1.3 1.4-3.1 2.1-5.2 2.1-2.1.0-3.9-.7-5.2-2.1-1.3-1.4-2-3.1-2-5.1.0-2 .7-3.7 2-5.1 1.3-1.3 3.1-2 5.2-2 2.1.0 3.9.7 5.2 2s2 3 2 5.1-.7 3.7-2 5.1z" style="fill:url(#XMLID_28_)"/><path id="XMLID_130_" class="st2" d="m114.8 53.9c-1.1-1.1-2.4-1.9-3.9-2.6-1.5-.6-3.1-1-4.9-1-1.7.0-3.3.3-4.8 1-1.5.6-2.8 1.5-3.9 2.6-1.1 1.1-2 2.4-2.6 3.8-.6 1.5-1 3-1 4.7s.3 3.2 1 4.7c.6 1.5 1.5 2.7 2.6 3.8s2.4 2 3.9 2.6 3.1 1 4.8 1 3.3-.3 4.9-1c1.5-.6 2.8-1.5 3.9-2.6 1.1-1.1 2-2.4 2.6-3.8.6-1.5 1-3 1-4.7.0-1.6-.3-3.2-1-4.7-.6-1.5-1.5-2.7-2.6-3.8zm-2.4 11.3c-.4.9-.9 1.6-1.5 2.2-.7.6-1.4 1.1-2.3 1.5-.9.4-1.8.6-2.8.6s-1.9-.2-2.8-.6c-.9-.4-1.6-.9-2.3-1.5-.6-.6-1.1-1.4-1.5-2.2-.4-.9-.6-1.8-.6-2.8s.2-1.9.6-2.8c.4-.9.9-1.6 1.5-2.3.6-.7 1.4-1.2 2.3-1.5.9-.4 1.8-.6 2.8-.6s1.9.2 2.8.6c.9.4 1.6.9 2.3 1.5.7.7 1.2 1.4 1.5 2.3.4.9.6 1.8.6 2.8s-.2 1.9-.6 2.8z"/><path id="XMLID_129_" class="st2" d="m136.7 61.9c-.7-.6-1.5-1-2.3-1.4s-1.6-.7-2.3-1c-.7-.3-1.4-.6-1.9-.9s-.8-.7-.9-1.2c-.1-.7.1-1.2.5-1.6s1.1-.6 2-.6c.6.0 1.2.1 1.9.3v2.6h4.6v-5.3c-.5-.5-1-.9-1.6-1.2-.6-.3-1.2-.6-1.8-.8-.6-.2-1.2-.3-1.8-.4-.6-.1-1.1-.1-1.5-.1-.7.0-1.5.1-2.3.4-.9.2-1.7.6-2.4 1.2s-1.4 1.3-1.8 2.1c-.5.9-.7 1.9-.7 3.2.0 1.4.2 2.6.7 3.4.5.9 1.1 1.5 1.9 2 .8.5 1.6.8 2.5 1.1s1.7.5 2.4.8c.7.3 1.3.6 1.8 1s.7 1 .6 1.7c0 .6-.2 1-.5 1.3s-.6.5-.9.6-.6.2-.9.2-.4.0-.5.0c-.7.0-1.3.0-1.8-.1s-1-.2-1.5-.4v-2.4h-4.6v5.3c.8.9 1.9 1.5 3.3 1.9s2.9.6 4.4.6c1.6.0 3-.3 4-.8s1.8-1.2 2.4-2 1-1.6 1.2-2.4c.2-.8.3-1.5.3-2.1.0-1.3-.2-2.3-.7-3.2-.6-.5-1.1-1.2-1.8-1.8z"/><path id="XMLID_128_" class="st2" d="m157.1 61.9c-.7-.6-1.5-1-2.3-1.4s-1.6-.7-2.3-1c-.7-.3-1.4-.6-1.9-.9s-.8-.7-.9-1.2c-.1-.7.1-1.2.5-1.6s1.1-.6 2-.6c.6.0 1.2.1 1.9.3v2.6h4.6v-5.3c-.5-.5-1-.9-1.6-1.2-.6-.3-1.2-.6-1.8-.8-.6-.2-1.2-.3-1.8-.4-.6-.1-1.1-.1-1.5-.1-.7.0-1.5.1-2.3.4-.9.2-1.7.6-2.4 1.2-.7.6-1.4 1.3-1.8 2.1-.5.9-.7 1.9-.7 3.2.0 1.4.2 2.6.7 3.4.5.9 1.1 1.5 1.9 2s1.6.8 2.5 1.1 1.7.5 2.4.8c.7.3 1.3.6 1.8 1s.7 1 .6 1.7c0 .6-.2 1-.5 1.3s-.6.5-.9.6-.6.2-.9.2-.4.0-.5.0c-.7.0-1.3.0-1.8-.1s-1-.2-1.5-.4V66.4H144v5.3c.8.9 1.9 1.5 3.3 1.9s2.9.6 4.4.6c1.6.0 3-.3 4-.8s1.8-1.2 2.4-2 1-1.6 1.2-2.4c.2-.8.3-1.5.3-2.1.0-1.3-.2-2.3-.7-3.2-.5-.5-1.1-1.2-1.8-1.8z"/><path id="XMLID_127_" class="st2" d="m170.6 45.2c.8.0 1.5-.3 2.2-.9s1-1.4 1-2.3-.3-1.7-1-2.3c-.7-.6-1.4-.9-2.2-.9-.8.0-1.6.3-2.2.9-.7.6-1 1.4-1 2.3s.3 1.7 1 2.3c.6.6 1.4.9 2.2.9z"/><polygon id="XMLID_126_" class="st2" points="173,50.9 163.6,50.9 163.6,55.7 167.9,55.7 167.9,69.1 163.6,69.1 163.6,73.9 177.3,73.9 177.3,69.1 173,69.1"/><path id="XMLID_123_" class="st2" d="m207.4 53.9c-1.1-1.1-2.4-2-3.9-2.6s-3.1-1-4.9-1c-1.1.0-2.1.1-3 .4s-1.7.6-2.4 1c-.7.4-1.3.7-1.7 1.1-.4.4-.7.6-.7.7.1-.3.2-.6.3-1 .1-.3.2-.6.3-1V27.9h-9.2v4.8h4.1V69h-4.7v4.8h9.2v-1.2-1.2c0 .1.2.3.6.7.4.3.9.7 1.6 1s1.5.7 2.4.9c.9.3 2 .4 3.2.4 1.7.0 3.3-.3 4.9-1 1.5-.6 2.8-1.5 3.9-2.6s2-2.4 2.6-3.9 1-3 1-4.7c0-1.6-.3-3.2-1-4.6-.6-1.3-1.4-2.6-2.6-3.7zm-3.5 13.5c-1.3 1.4-3.1 2.1-5.2 2.1s-3.9-.7-5.2-2.1c-1.3-1.4-2-3.1-2-5.1.0-2 .7-3.7 2-5.1 1.3-1.3 3.1-2 5.2-2s3.9.7 5.2 2c1.3 1.3 2 3 2 5.1s-.7 3.8-2 5.1z"/><path id="XMLID_122_" class="st2" d="m222.3 45.2c.8.0 1.5-.3 2.2-.9s1-1.4 1-2.3-.3-1.7-1-2.3c-.7-.6-1.4-.9-2.2-.9-.8.0-1.6.3-2.2.9-.7.6-1 1.4-1 2.3s.3 1.7 1 2.3c.6.6 1.4.9 2.2.9z"/><polygon id="XMLID_121_" class="st2" points="224.8,50.9 215.3,50.9 215.3,55.7 219.7,55.7 219.7,69.1 215.3,69.1 215.3,73.9 229,73.9 229,69.1 224.8,69.1"/><polygon id="XMLID_120_" class="st2" points="243.1,27.9 234,27.9 234,32.8 238,32.8 238,69.1 233.3,69.1 233.3,73.9 247,73.9 247,69.1 243.1,69.1"/><polygon id="XMLID_119_" class="st2" points="260.8,50.9 251.3,50.9 251.3,55.7 255.7,55.7 255.7,69.1 251.3,69.1 251.3,73.9 265,73.9 265,69.1 260.8,69.1"/><path id="XMLID_118_" class="st2" d="m258.3 45.2c.8.0 1.5-.3 2.2-.9s1-1.4 1-2.3-.3-1.7-1-2.3c-.7-.6-1.4-.9-2.2-.9s-1.6.3-2.2.9c-.7.6-1 1.4-1 2.3s.3 1.7 1 2.3c.6.6 1.4.9 2.2.9z"/><path id="XMLID_117_" class="st2" d="m285.1 64c-.5-.8-1-1.5-1.7-2.1s-1.5-1-2.3-1.4-1.6-.7-2.3-1-1.4-.6-1.9-.9-.8-.7-.9-1.2c-.1-.7.1-1.2.5-1.6s1.1-.6 2-.6c.6.0 1.2.1 1.9.3v2.6h4.6v-5.3c-.5-.5-1-.9-1.6-1.2-.6-.3-1.2-.6-1.8-.8-.6-.2-1.2-.3-1.8-.4s-1.1-.1-1.5-.1c-.7.0-1.5.1-2.3.4-.9.2-1.7.6-2.4 1.2s-1.4 1.3-1.8 2.1c-.5.9-.7 1.9-.7 3.2.0 1.4.2 2.6.7 3.4.5.9 1.1 1.5 1.9 2 .8.5 1.6.8 2.5 1.1s1.7.5 2.4.8 1.3.6 1.8 1 .7 1 .6 1.7c0 .6-.2 1-.5 1.3s-.6.5-.9.6c-.3.1-.6.2-.9.2-.3.0-.4.0-.5.0-.7.0-1.3.0-1.8-.1s-1-.2-1.5-.4v-2.4h-4.6v5.3c.8.9 1.9 1.5 3.3 1.9 1.4.4 2.9.6 4.4.6 1.6.0 3-.3 4-.8s1.8-1.2 2.4-2c.6-.8 1-1.6 1.2-2.4.2-.8.3-1.5.3-2.1-.2-1-.4-2.1-.8-2.9z"/><g id="XMLID_111_"><g id="XMLID_115_"><polygon id="XMLID_116_" class="st3" points="54.9,21.9 31,8.1 7.1,21.9 31,35.7"/></g><polygon id="XMLID_114_" class="st2" points="30.7,36.3 30.7,49.9 7.1,22.7"/><polygon id="XMLID_113_" class="st4" points="31.3,36.3 31.3,49.9 54.9,22.7"/><polygon id="XMLID_112_" class="st5" points="39.2,41.8 54.9,50.9 31,64.7 7.1,50.9 22.8,41.8 31,51.3"/></g><g id="XMLID_109_"><linearGradient id="XMLID_29_" gradientUnits="userSpaceOnUse" x1="65.542099" y1="69.959999" x2="181.64619" y2="55.704201"><stop offset="0" style="stop-color:#F7323F" id="stop38"/><stop offset="1" style="stop-color:#18667A" id="stop40"/></linearGradient><polygon id="XMLID_110_" class="st6" points="289,23.4 59.8,23.4 59.8,21.9 290.5,21.9 290.5,91.1 78.4,91.1 78.4,89.6 289,89.6" style="fill:url(#XMLID_29_)"/></g><path id="XMLID_108_" class="st5" d="m14.1 64.7c.8.0 1.5-.3 2.2-.9s1-1.4 1-2.3-.3-1.7-1-2.3c-.7-.6-1.4-.9-2.2-.9-.8.0-1.6.3-2.2.9-.7.6-1 1.4-1 2.3s.3 1.7 1 2.3c.6.6 1.3.9 2.2.9z"/><polygon id="XMLID_107_" class="st5" points="16.5,68.1 7.1,68.1 7.1,72.9 11.4,72.9 11.4,86.2 7.1,86.2 7.1,91.1 20.8,91.1 20.8,86.2 16.5,86.2"/></g></svg></a></div><input id=nav-toggle type=checkbox class=hidden>
-<label for=nav-toggle class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"><svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20"><title>Open Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0V0z"/></svg>
-<svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20"><title>Close Menu</title><polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2" transform="rotate(45 10 10)"/></svg></label><ul id=nav-menu class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start"><li class=nav-item><a class=nav-link href=/en/>Bio</a></li><li class=nav-item><a class=nav-link href=/en/#papers>Papers</a></li><li class=nav-item><a class=nav-link href=/en/#talks>Talks</a></li><li class=nav-item><a class=nav-link href=/en/#news>News</a></li><li class=nav-item><a class=nav-link href=/en/experience/>Experience</a></li><li class=nav-item><a class=nav-link href=/en/projects/>Projects</a></li><li class=nav-item><a class=nav-link href=/en/teaching/>Teaching</a></li></ul><div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0"><button aria-label="toggle search" class="text-black hover:text-primary inline-block px-3 text-xl dark:text-white" data-search-toggle>
-<svg height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8.0 45.3s-32.8 12.5-45.3.0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9.0 208S93.1.0 208 0 416 93.1 416 208zM208 352a144 144 0 100-288 144 144 0 100 288z"/></svg></button><div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
-[&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white"><button class="theme-toggle mt-1" accesskey=t title=appearance>
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="block dark:hidden"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden dark:block"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div><div class="pl-1 mr-5 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200
-[&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white"><div class="flex justify-items-start"><button title=Languages data-state=closed data-hb-language-chooser class="grow h-7 rounded-md px-2 text-left text-xs font-medium text-gray-600 transition-colors dark:text-gray-400 hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-primary-100/5 dark:hover:text-gray-50" type=button aria-label=Languages><div class="flex items-center gap-2 capitalize"><svg height="18" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004.0 008.716-6.747M12 21a9.004 9.004.0 01-8.716-6.747M12 21c2.485.0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485.0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997.0 017.843 4.582M12 3A8.997 8.997.0 004.157 7.582m15.686.0A11.953 11.953.0 0112 10.5c-2.998.0-5.74-1.1-7.843-2.918m15.686.0A8.959 8.959.0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919.0 0112 16.5a17.92 17.92.0 01-8.716-2.247m0 0A9.015 9.015.0 013 12c0-1.605.42-3.113 1.157-4.418"/></svg><span>English</span></div></button><ul class="fixed m-0 min-w-[100px] hidden z-20 max-h-64 overflow-auto rounded-md ring-1 ring-black/5 bg-white py-1 text-sm shadow-lg dark:ring-white/20 dark:bg-neutral-800" style="inset:auto auto 0 0"><li class="flex flex-col"><a href=https://impossibilis.com/pt/tags/javascript/ class="relative cursor-pointer text-gray-800 dark:text-gray-100 hover:bg-primary-50 hover:text-primary-600 hover:dark:bg-primary-500/10 hover:dark:text-primary-200 whitespace-nowrap py-1.5 transition-colors ltr:pl-3 ltr:pr-9 rtl:pr-3 rtl:pl-9">Português</a></li></ul></div></div></div></nav></header><div id=search-wrapper class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"><div class="flex justify-end p-3"><button aria-label=search class="search-close text-black hover:text-primary dark:text-white" data-search-toggle>
-<svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/></svg></button></div><div id=search class="flex-1 overflow-y-auto p-3"></div></div></div><div class="page-body my-10"><div class="max-w-prose mx-auto flex justify-center"><article class="prose prose-slate lg:prose-xl dark:prose-invert"><h1 class=lg:text-6xl>JavaScript</h1></article></div><div class="flex flex-col items-center"><div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5"><a href=/en/teaching/js/ class=mb-5><div class=md:flex><div class="md:flex-shrink-0 overflow-hidden"><img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" srcset="/en/teaching/js/featured_hu_dffc6718ffa0e0dc.webp 192w, /en/teaching/js/featured_hu_2ff4facc4ed7d07d.webp 384w, /en/teaching/js/featured_hu_aaad69a8f4841aea.webp 480w, /en/teaching/js/featured_hu_39994fe59c12c8a2.webp 655w, /en/teaching/js/featured_hu_c2b9e27eb28d5112.webp 655w" sizes="(max-width: 768px) 100vw, 192px" src=/en/teaching/js/featured_hu_dffc6718ffa0e0dc.webp width=655 height=655 loading=lazy alt="Learn JavaScript"></div><div class=p-8><div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Learn JavaScript</div><p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">Easily learn JavaScript in 10 minutes!</p><p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 24, 2023</p></div></div></a></div></div></div><div class=page-footer><footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200"><div class="mx-auto flex gap-3 py-2 px-4"><div class=font-bold><svg class="inline-block pr-1" style="height:1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004.0 008.716-6.747M12 21a9.004 9.004.0 01-8.716-6.747M12 21c2.485.0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485.0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997.0 017.843 4.582M12 3A8.997 8.997.0 004.157 7.582m15.686.0A11.953 11.953.0 0112 10.5c-2.998.0-5.74-1.1-7.843-2.918m15.686.0A8.959 8.959.0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919.0 0112 16.5a17.92 17.92.0 01-8.716-2.247m0 0A9.015 9.015.0 013 12c0-1.605.42-3.113 1.157-4.418"/></svg>Languages:</div><div class=font-bold>English</div><div><a href=https://impossibilis.com/pt/tags/javascript/>Português</a></div></div><p class="powered-by text-center">© 2025 impossibilis. This work is licensed under <a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank>CC BY NC ND 4.0</a></p><p class="powered-by footer-license-icons"><a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons"><i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-nc fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-nd fa-2x" aria-hidden=true></i></a></p><p class="powered-by text-center">Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target=_blank rel=noopener>Hugo Blox Builder</a> — the free, <a href=https://github.com/HugoBlox/hugo-blox-builder target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div><div id=hb-notification-container class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live=polite aria-atomic=true></div></body></html>
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
+      
+      <a class="navbar-brand" href="/en/" title="impossibilis">
+            
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 283.39998 83.400004"
+   id="svg48"
+   width="283.39999"
+   height="83.400002"
+   sodipodi:docname="Logotipo_cores_sem_tag.svg"
+   inkscape:version="1.4.2 (unknown)"
+   inkscape:export-filename="Logotipo_cores_sem_tag.png"
+   inkscape:export-xdpi="57.549999"
+   inkscape:export-ydpi="57.549999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs46" />
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.1815294"
+     inkscape:cx="233.32255"
+     inkscape:cy="11.45985"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Modo_de_isolamento" />
+  <style
+     type="text/css"
+     id="style2">
+	.st0{fill:#F7323F;stroke:#FFFFFF;stroke-width:0.7416;stroke-miterlimit:1;}
+	.st1{fill:url(#XMLID_28_);}
+	.st2{fill:#18667A;}
+	.st3{fill:#135C6F;}
+	.st4{fill:#004352;}
+	.st5{fill:#F7323F;}
+	.st6{fill:url(#XMLID_29_);}
+</style>
+  <g
+     id="Camada_1"
+     transform="translate(-7.1,-8.1)" />
+  <g
+     id="Modo_de_isolamento"
+     transform="translate(-7.1,-8.1)">
+    <path
+       id="XMLID_136_"
+       class="st0"
+       d="M 21.2,70.3" />
+    <linearGradient
+       id="XMLID_28_"
+       gradientUnits="userSpaceOnUse"
+       x1="23.122"
+       y1="76.328499"
+       x2="90.119904"
+       y2="68.102203">
+      <stop
+         offset="0.58"
+         style="stop-color:#F7323F"
+         id="stop6" />
+      <stop
+         offset="0.5924"
+         style="stop-color:#E93543"
+         id="stop8" />
+      <stop
+         offset="0.616"
+         style="stop-color:#C33E4D"
+         id="stop10" />
+      <stop
+         offset="0.6484"
+         style="stop-color:#864C5D"
+         id="stop12" />
+      <stop
+         offset="0.6879"
+         style="stop-color:#336073"
+         id="stop14" />
+      <stop
+         offset="0.7"
+         style="stop-color:#18667A"
+         id="stop16" />
+    </linearGradient>
+    <path
+       id="XMLID_133_"
+       class="st1"
+       d="m 68.9,50.9 h -9 v 4.8 h 4.7 V 68.2 C 63.8,68 62.9,67.9 61.9,67.9 59.7,68 57.7,68.5 56,69.6 c -1.7,1 -3,2.5 -3.9,4.4 -0.2,-1.8 -1,-3.3 -2.4,-4.4 -1.4,-1.1 -3.2,-1.7 -5.4,-1.7 -2.3,0.1 -4.3,0.7 -6,1.8 -1.7,1.1 -3,2.6 -3.9,4.6 -0.1,-1 -0.2,-1.8 -0.2,-2.6 C 34.1,70.9 34.1,70 34,69.1 v -0.5 h -8.4 v 4.8 h 4 V 86.5 H 25 v 4.8 h 13.5 v -4.8 h -3.8 v -6.2 c 0,-1.1 0.2,-2 0.7,-2.9 0.4,-0.9 1,-1.7 1.8,-2.3 0.7,-0.6 1.6,-1.2 2.5,-1.5 1,-0.4 2,-0.5 3,-0.5 1.5,0.1 2.7,0.5 3.4,1.3 0.7,0.8 1.1,1.7 1.2,2.8 v 9.4 h -4.6 v 4.8 H 56 v -4.8 h -3.8 v -6.2 c 0,-1.1 0.2,-2 0.7,-2.9 0.4,-0.9 1,-1.7 1.8,-2.3 0.7,-0.6 1.6,-1.2 2.5,-1.5 1,-0.4 2,-0.5 3,-0.5 1.5,0.1 2.7,0.5 3.4,1.3 0.7,0.8 1.1,1.7 1.2,2.8 v 9.4 h -4.6 v 4.8 H 73.7 V 86.7 H 69.9 V 72.8 c 0,-0.2 0,-0.5 -0.1,-0.7 0.1,0.1 0.2,0.1 0.3,0.2 0.4,0.3 0.9,0.6 1.6,1 0.7,0.3 1.4,0.6 2.3,0.9 0.9,0.2 1.9,0.4 3.1,0.4 1.7,0 3.4,-0.3 4.9,-1 1.5,-0.6 2.8,-1.5 3.9,-2.6 1.1,-1.1 2,-2.4 2.6,-3.9 0.6,-1.5 1,-3 1,-4.7 0,-1.6 -0.3,-3.2 -1,-4.6 C 87.9,56.3 87,55.1 85.9,54 84.8,52.9 83.5,52 82,51.4 c -1.5,-0.6 -3.1,-1 -4.9,-1 -1.1,0 -2.1,0.2 -3,0.5 -0.9,0.3 -1.7,0.7 -2.4,1 -0.7,0.4 -1.3,0.8 -1.7,1.2 -0.4,0.4 -0.7,0.6 -0.7,0.8 m 12.9,13.5 c -1.3,1.4 -3.1,2.1 -5.2,2.1 -2.1,0 -3.9,-0.7 -5.2,-2.1 -1.3,-1.4 -2,-3.1 -2,-5.1 0,-2 0.7,-3.7 2,-5.1 1.3,-1.3 3.1,-2 5.2,-2 2.1,0 3.9,0.7 5.2,2 1.3,1.3 2,3 2,5.1 0,2.1 -0.7,3.7 -2,5.1 z"
+       style="fill:url(#XMLID_28_)" />
+    <path
+       id="XMLID_130_"
+       class="st2"
+       d="m 114.8,53.9 c -1.1,-1.1 -2.4,-1.9 -3.9,-2.6 -1.5,-0.6 -3.1,-1 -4.9,-1 -1.7,0 -3.3,0.3 -4.8,1 -1.5,0.6 -2.8,1.5 -3.9,2.6 -1.1,1.1 -2,2.4 -2.6,3.8 -0.6,1.5 -1,3 -1,4.7 0,1.7 0.3,3.2 1,4.7 0.6,1.5 1.5,2.7 2.6,3.8 1.1,1.1 2.4,2 3.9,2.6 1.5,0.6 3.1,1 4.8,1 1.7,0 3.3,-0.3 4.9,-1 1.5,-0.6 2.8,-1.5 3.9,-2.6 1.1,-1.1 2,-2.4 2.6,-3.8 0.6,-1.5 1,-3 1,-4.7 0,-1.6 -0.3,-3.2 -1,-4.7 -0.6,-1.5 -1.5,-2.7 -2.6,-3.8 z m -2.4,11.3 c -0.4,0.9 -0.9,1.6 -1.5,2.2 -0.7,0.6 -1.4,1.1 -2.3,1.5 -0.9,0.4 -1.8,0.6 -2.8,0.6 -1,0 -1.9,-0.2 -2.8,-0.6 -0.9,-0.4 -1.6,-0.9 -2.3,-1.5 -0.6,-0.6 -1.1,-1.4 -1.5,-2.2 -0.4,-0.9 -0.6,-1.8 -0.6,-2.8 0,-1 0.2,-1.9 0.6,-2.8 0.4,-0.9 0.9,-1.6 1.5,-2.3 0.6,-0.7 1.4,-1.2 2.3,-1.5 0.9,-0.4 1.8,-0.6 2.8,-0.6 1,0 1.9,0.2 2.8,0.6 0.9,0.4 1.6,0.9 2.3,1.5 0.7,0.7 1.2,1.4 1.5,2.3 0.4,0.9 0.6,1.8 0.6,2.8 0,1 -0.2,1.9 -0.6,2.8 z" />
+    <path
+       id="XMLID_129_"
+       class="st2"
+       d="m 136.7,61.9 c -0.7,-0.6 -1.5,-1 -2.3,-1.4 -0.8,-0.4 -1.6,-0.7 -2.3,-1 -0.7,-0.3 -1.4,-0.6 -1.9,-0.9 -0.5,-0.3 -0.8,-0.7 -0.9,-1.2 -0.1,-0.7 0.1,-1.2 0.5,-1.6 0.4,-0.4 1.1,-0.6 2,-0.6 0.6,0 1.2,0.1 1.9,0.3 v 2.6 h 4.6 v -5.3 c -0.5,-0.5 -1,-0.9 -1.6,-1.2 -0.6,-0.3 -1.2,-0.6 -1.8,-0.8 -0.6,-0.2 -1.2,-0.3 -1.8,-0.4 -0.6,-0.1 -1.1,-0.1 -1.5,-0.1 -0.7,0 -1.5,0.1 -2.3,0.4 -0.9,0.2 -1.7,0.6 -2.4,1.2 -0.7,0.6 -1.4,1.3 -1.8,2.1 -0.5,0.9 -0.7,1.9 -0.7,3.2 0,1.4 0.2,2.6 0.7,3.4 0.5,0.9 1.1,1.5 1.9,2 0.8,0.5 1.6,0.8 2.5,1.1 0.9,0.3 1.7,0.5 2.4,0.8 0.7,0.3 1.3,0.6 1.8,1 0.5,0.4 0.7,1 0.6,1.7 0,0.6 -0.2,1 -0.5,1.3 -0.3,0.3 -0.6,0.5 -0.9,0.6 -0.3,0.1 -0.6,0.2 -0.9,0.2 -0.3,0 -0.4,0 -0.5,0 -0.7,0 -1.3,0 -1.8,-0.1 -0.5,-0.1 -1,-0.2 -1.5,-0.4 v -2.4 h -4.6 v 5.3 c 0.8,0.9 1.9,1.5 3.3,1.9 1.4,0.4 2.9,0.6 4.4,0.6 1.6,0 3,-0.3 4,-0.8 1,-0.5 1.8,-1.2 2.4,-2 0.6,-0.8 1,-1.6 1.2,-2.4 0.2,-0.8 0.3,-1.5 0.3,-2.1 0,-1.3 -0.2,-2.3 -0.7,-3.2 -0.6,-0.5 -1.1,-1.2 -1.8,-1.8 z" />
+    <path
+       id="XMLID_128_"
+       class="st2"
+       d="m 157.1,61.9 c -0.7,-0.6 -1.5,-1 -2.3,-1.4 -0.8,-0.4 -1.6,-0.7 -2.3,-1 -0.7,-0.3 -1.4,-0.6 -1.9,-0.9 -0.5,-0.3 -0.8,-0.7 -0.9,-1.2 -0.1,-0.7 0.1,-1.2 0.5,-1.6 0.4,-0.4 1.1,-0.6 2,-0.6 0.6,0 1.2,0.1 1.9,0.3 v 2.6 h 4.6 v -5.3 c -0.5,-0.5 -1,-0.9 -1.6,-1.2 -0.6,-0.3 -1.2,-0.6 -1.8,-0.8 -0.6,-0.2 -1.2,-0.3 -1.8,-0.4 -0.6,-0.1 -1.1,-0.1 -1.5,-0.1 -0.7,0 -1.5,0.1 -2.3,0.4 -0.9,0.2 -1.7,0.6 -2.4,1.2 -0.7,0.6 -1.4,1.3 -1.8,2.1 -0.5,0.9 -0.7,1.9 -0.7,3.2 0,1.4 0.2,2.6 0.7,3.4 0.5,0.9 1.1,1.5 1.9,2 0.8,0.5 1.6,0.8 2.5,1.1 0.9,0.3 1.7,0.5 2.4,0.8 0.7,0.3 1.3,0.6 1.8,1 0.5,0.4 0.7,1 0.6,1.7 0,0.6 -0.2,1 -0.5,1.3 -0.3,0.3 -0.6,0.5 -0.9,0.6 -0.3,0.1 -0.6,0.2 -0.9,0.2 -0.3,0 -0.4,0 -0.5,0 -0.7,0 -1.3,0 -1.8,-0.1 -0.5,-0.1 -1,-0.2 -1.5,-0.4 V 66.4 H 144 v 5.3 c 0.8,0.9 1.9,1.5 3.3,1.9 1.4,0.4 2.9,0.6 4.4,0.6 1.6,0 3,-0.3 4,-0.8 1,-0.5 1.8,-1.2 2.4,-2 0.6,-0.8 1,-1.6 1.2,-2.4 0.2,-0.8 0.3,-1.5 0.3,-2.1 0,-1.3 -0.2,-2.3 -0.7,-3.2 -0.5,-0.5 -1.1,-1.2 -1.8,-1.8 z" />
+    <path
+       id="XMLID_127_"
+       class="st2"
+       d="m 170.6,45.2 c 0.8,0 1.5,-0.3 2.2,-0.9 0.7,-0.6 1,-1.4 1,-2.3 0,-0.9 -0.3,-1.7 -1,-2.3 -0.7,-0.6 -1.4,-0.9 -2.2,-0.9 -0.8,0 -1.6,0.3 -2.2,0.9 -0.7,0.6 -1,1.4 -1,2.3 0,0.9 0.3,1.7 1,2.3 0.6,0.6 1.4,0.9 2.2,0.9 z" />
+    <polygon
+       id="XMLID_126_"
+       class="st2"
+       points="173,50.9 163.6,50.9 163.6,55.7 167.9,55.7 167.9,69.1 163.6,69.1 163.6,73.9 177.3,73.9 177.3,69.1 173,69.1 " />
+    <path
+       id="XMLID_123_"
+       class="st2"
+       d="m 207.4,53.9 c -1.1,-1.1 -2.4,-2 -3.9,-2.6 -1.5,-0.6 -3.1,-1 -4.9,-1 -1.1,0 -2.1,0.1 -3,0.4 -0.9,0.3 -1.7,0.6 -2.4,1 -0.7,0.4 -1.3,0.7 -1.7,1.1 -0.4,0.4 -0.7,0.6 -0.7,0.7 0.1,-0.3 0.2,-0.6 0.3,-1 0.1,-0.3 0.2,-0.6 0.3,-1 V 27.9 h -9.2 v 4.8 h 4.1 V 69 h -4.7 v 4.8 h 9.2 v -1.2 -1.2 c 0,0.1 0.2,0.3 0.6,0.7 0.4,0.3 0.9,0.7 1.6,1 0.7,0.3 1.5,0.7 2.4,0.9 0.9,0.3 2,0.4 3.2,0.4 1.7,0 3.3,-0.3 4.9,-1 1.5,-0.6 2.8,-1.5 3.9,-2.6 1.1,-1.1 2,-2.4 2.6,-3.9 0.6,-1.5 1,-3 1,-4.7 0,-1.6 -0.3,-3.2 -1,-4.6 -0.6,-1.3 -1.4,-2.6 -2.6,-3.7 z m -3.5,13.5 c -1.3,1.4 -3.1,2.1 -5.2,2.1 -2.1,0 -3.9,-0.7 -5.2,-2.1 -1.3,-1.4 -2,-3.1 -2,-5.1 0,-2 0.7,-3.7 2,-5.1 1.3,-1.3 3.1,-2 5.2,-2 2.1,0 3.9,0.7 5.2,2 1.3,1.3 2,3 2,5.1 0,2.1 -0.7,3.8 -2,5.1 z" />
+    <path
+       id="XMLID_122_"
+       class="st2"
+       d="m 222.3,45.2 c 0.8,0 1.5,-0.3 2.2,-0.9 0.7,-0.6 1,-1.4 1,-2.3 0,-0.9 -0.3,-1.7 -1,-2.3 -0.7,-0.6 -1.4,-0.9 -2.2,-0.9 -0.8,0 -1.6,0.3 -2.2,0.9 -0.7,0.6 -1,1.4 -1,2.3 0,0.9 0.3,1.7 1,2.3 0.6,0.6 1.4,0.9 2.2,0.9 z" />
+    <polygon
+       id="XMLID_121_"
+       class="st2"
+       points="224.8,50.9 215.3,50.9 215.3,55.7 219.7,55.7 219.7,69.1 215.3,69.1 215.3,73.9 229,73.9 229,69.1 224.8,69.1 " />
+    <polygon
+       id="XMLID_120_"
+       class="st2"
+       points="243.1,27.9 234,27.9 234,32.8 238,32.8 238,69.1 233.3,69.1 233.3,73.9 247,73.9 247,69.1 243.1,69.1 " />
+    <polygon
+       id="XMLID_119_"
+       class="st2"
+       points="260.8,50.9 251.3,50.9 251.3,55.7 255.7,55.7 255.7,69.1 251.3,69.1 251.3,73.9 265,73.9 265,69.1 260.8,69.1 " />
+    <path
+       id="XMLID_118_"
+       class="st2"
+       d="m 258.3,45.2 c 0.8,0 1.5,-0.3 2.2,-0.9 0.7,-0.6 1,-1.4 1,-2.3 0,-0.9 -0.3,-1.7 -1,-2.3 -0.7,-0.6 -1.4,-0.9 -2.2,-0.9 -0.8,0 -1.6,0.3 -2.2,0.9 -0.7,0.6 -1,1.4 -1,2.3 0,0.9 0.3,1.7 1,2.3 0.6,0.6 1.4,0.9 2.2,0.9 z" />
+    <path
+       id="XMLID_117_"
+       class="st2"
+       d="m 285.1,64 c -0.5,-0.8 -1,-1.5 -1.7,-2.1 -0.7,-0.6 -1.5,-1 -2.3,-1.4 -0.8,-0.4 -1.6,-0.7 -2.3,-1 -0.7,-0.3 -1.4,-0.6 -1.9,-0.9 -0.5,-0.3 -0.8,-0.7 -0.9,-1.2 -0.1,-0.7 0.1,-1.2 0.5,-1.6 0.4,-0.4 1.1,-0.6 2,-0.6 0.6,0 1.2,0.1 1.9,0.3 v 2.6 h 4.6 v -5.3 c -0.5,-0.5 -1,-0.9 -1.6,-1.2 -0.6,-0.3 -1.2,-0.6 -1.8,-0.8 -0.6,-0.2 -1.2,-0.3 -1.8,-0.4 -0.6,-0.1 -1.1,-0.1 -1.5,-0.1 -0.7,0 -1.5,0.1 -2.3,0.4 -0.9,0.2 -1.7,0.6 -2.4,1.2 -0.7,0.6 -1.4,1.3 -1.8,2.1 -0.5,0.9 -0.7,1.9 -0.7,3.2 0,1.4 0.2,2.6 0.7,3.4 0.5,0.9 1.1,1.5 1.9,2 0.8,0.5 1.6,0.8 2.5,1.1 0.9,0.3 1.7,0.5 2.4,0.8 0.7,0.3 1.3,0.6 1.8,1 0.5,0.4 0.7,1 0.6,1.7 0,0.6 -0.2,1 -0.5,1.3 -0.3,0.3 -0.6,0.5 -0.9,0.6 -0.3,0.1 -0.6,0.2 -0.9,0.2 -0.3,0 -0.4,0 -0.5,0 -0.7,0 -1.3,0 -1.8,-0.1 -0.5,-0.1 -1,-0.2 -1.5,-0.4 v -2.4 h -4.6 v 5.3 c 0.8,0.9 1.9,1.5 3.3,1.9 1.4,0.4 2.9,0.6 4.4,0.6 1.6,0 3,-0.3 4,-0.8 1,-0.5 1.8,-1.2 2.4,-2 0.6,-0.8 1,-1.6 1.2,-2.4 0.2,-0.8 0.3,-1.5 0.3,-2.1 -0.2,-1 -0.4,-2.1 -0.8,-2.9 z" />
+    <g
+       id="XMLID_111_">
+      <g
+         id="XMLID_115_">
+        <polygon
+           id="XMLID_116_"
+           class="st3"
+           points="54.9,21.9 31,8.1 7.1,21.9 31,35.7 " />
+      </g>
+      <polygon
+         id="XMLID_114_"
+         class="st2"
+         points="30.7,36.3 30.7,49.9 7.1,22.7 " />
+      <polygon
+         id="XMLID_113_"
+         class="st4"
+         points="31.3,36.3 31.3,49.9 54.9,22.7 " />
+      <polygon
+         id="XMLID_112_"
+         class="st5"
+         points="39.2,41.8 54.9,50.9 31,64.7 7.1,50.9 22.8,41.8 31,51.3 " />
+    </g>
+    <g
+       id="XMLID_109_">
+      <linearGradient
+         id="XMLID_29_"
+         gradientUnits="userSpaceOnUse"
+         x1="65.542099"
+         y1="69.959999"
+         x2="181.64619"
+         y2="55.704201">
+        <stop
+           offset="0"
+           style="stop-color:#F7323F"
+           id="stop38" />
+        <stop
+           offset="1"
+           style="stop-color:#18667A"
+           id="stop40" />
+      </linearGradient>
+      <polygon
+         id="XMLID_110_"
+         class="st6"
+         points="289,23.4 59.8,23.4 59.8,21.9 290.5,21.9 290.5,91.1 78.4,91.1 78.4,89.6 289,89.6 "
+         style="fill:url(#XMLID_29_)" />
+    </g>
+    <path
+       id="XMLID_108_"
+       class="st5"
+       d="m 14.1,64.7 c 0.8,0 1.5,-0.3 2.2,-0.9 0.7,-0.6 1,-1.4 1,-2.3 0,-0.9 -0.3,-1.7 -1,-2.3 -0.7,-0.6 -1.4,-0.9 -2.2,-0.9 -0.8,0 -1.6,0.3 -2.2,0.9 -0.7,0.6 -1,1.4 -1,2.3 0,0.9 0.3,1.7 1,2.3 0.6,0.6 1.3,0.9 2.2,0.9 z" />
+    <polygon
+       id="XMLID_107_"
+       class="st5"
+       points="16.5,68.1 7.1,68.1 7.1,72.9 11.4,72.9 11.4,86.2 7.1,86.2 7.1,91.1 20.8,91.1 20.8,86.2 16.5,86.2 " />
+  </g>
+</svg>
+
+          
+        
+        
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/#papers"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/#news"
+        >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/experience/"
+        >Experience</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/projects/"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/en/teaching/"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+      <button
+        aria-label="toggle search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        data-search-toggle>
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="block dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="hidden dark:block">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+      <div class="pl-1 mr-5 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+
+
+<div class="flex justify-items-start ">
+    <button
+      title="Languages"
+      data-state="closed"
+      data-hb-language-chooser
+      class="grow h-7 rounded-md px-2 text-left text-xs font-medium text-gray-600 transition-colors dark:text-gray-400 hover:bg-gray-100 hover:text-gray-900 dark:hover:bg-primary-100/5 dark:hover:text-gray-50"
+      type="button"
+      aria-label="Languages"
+    >
+      <div class="flex items-center gap-2 capitalize">
+        <svg height=18 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5a17.92 17.92 0 0 1-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/></svg><span>English</span></div>
+    </button>
+    <ul
+      class="fixed m-0 min-w-[100px] hidden z-20 max-h-64 overflow-auto rounded-md ring-1 ring-black/5 bg-white py-1 text-sm shadow-lg dark:ring-white/20 dark:bg-neutral-800"
+      style="inset: auto auto 0 0;"
+    >
+      
+        <li class="flex flex-col">
+          <a
+            href="http://localhost:1313/pt/tags/javascript/"
+            class="relative cursor-pointer text-gray-800 dark:text-gray-100 hover:bg-primary-50 hover:text-primary-600 hover:dark:bg-primary-500/10 hover:dark:text-primary-200 whitespace-nowrap py-1.5 transition-colors ltr:pl-3 ltr:pr-9 rtl:pr-3 rtl:pl-9"
+          >Português</a>
+        </li>
+      </ul>
+  </div></div>
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+<div
+  id="search-wrapper"
+  class="hidden fixed inset-0 z-50 bg-white dark:bg-gray-900 flex flex-col overflow-hidden"
+>
+  <div class="flex justify-end p-3">
+    <button
+      aria-label="search"
+      class="search-close text-black hover:text-primary dark:text-white"
+      data-search-toggle
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="search" class="flex-1 overflow-y-auto p-3">
+    
+  </div>
+</div>
+
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      
+
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    <h1 class="lg:text-6xl">JavaScript</h1>
+    
+  </article>
+</div>
+
+
+
+
+
+
+  
+
+
+<div class="flex flex-col items-center">
+
+  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+<a href="/en/teaching/js/"  class="mb-5">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0 overflow-hidden">
+      
+        
+        
+        
+        <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" 
+             srcset="/en/teaching/js/featured_hu_dffc6718ffa0e0dc.webp 192w, /en/teaching/js/featured_hu_2ff4facc4ed7d07d.webp 384w, /en/teaching/js/featured_hu_aaad69a8f4841aea.webp 480w, /en/teaching/js/featured_hu_39994fe59c12c8a2.webp 655w, /en/teaching/js/featured_hu_c2b9e27eb28d5112.webp 655w"
+             sizes="(max-width: 768px) 100vw, 192px"
+             src="/en/teaching/js/featured_hu_dffc6718ffa0e0dc.webp" 
+             width="655" 
+             height="655"
+             loading="lazy" 
+             alt="Learn JavaScript">
+      
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">Learn JavaScript</div>
+      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
+        Easily learn JavaScript in 10 minutes!</p>
+      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 24, 2023</p>
+    </div>
+  </div>
+</a>
+
+  
+
+  </div>
+
+
+  
+
+
+</div>
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+<div class="mx-auto flex gap-3 py-2 px-4">
+  <div class="font-bold"><svg class="inline-block pr-1" style="height: 1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5a17.92 17.92 0 0 1-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/></svg>Languages:
+  </div>
+  <div class="font-bold">English</div>
+  
+  <div><a href="http://localhost:1313/pt/tags/javascript/">Português</a></div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2025 impossibilis. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
