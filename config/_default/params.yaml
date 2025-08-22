@@ -34,8 +34,9 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo: logo.svg
-      text: ''
+    logo: 
+      filename: logo.svg
+      text:
 
 # Site footer
 footer:

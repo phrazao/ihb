@@ -4,382 +4,382 @@
   
   
   <url>
-    <loc>http://localhost:1313/event/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/event/example/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/event/example/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/event/example/"
+      href="http://localhost:1313/en/event/example/"
     /></url>
   <url>
-    <loc>http://localhost:1313/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/event/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/event/"
+      href="http://localhost:1313/en/event/"
     /></url>
   <url>
-    <loc>http://localhost:1313/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/projects/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/projects/"
+      href="http://localhost:1313/en/projects/"
     /></url>
   <url>
-    <loc>http://localhost:1313/post/get-started/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/post/get-started/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/post/get-started/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/post/get-started/"
+      href="http://localhost:1313/en/post/get-started/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/academic/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/academic/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/academic/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/academic/"
+      href="http://localhost:1313/en/tags/academic/"
     /></url>
   <url>
-    <loc>http://localhost:1313/post/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/post/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/post/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/post/"
+      href="http://localhost:1313/en/post/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/hugo-blox/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/hugo-blox/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/hugo-blox/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/hugo-blox/"
+      href="http://localhost:1313/en/tags/hugo-blox/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/markdown/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/markdown/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/markdown/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/markdown/"
+      href="http://localhost:1313/en/tags/markdown/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/"
+      href="http://localhost:1313/en/tags/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/hugo/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/hugo/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/hugo/"
+      href="http://localhost:1313/en/tags/hugo/"
     /></url>
   <url>
-    <loc>http://localhost:1313/project/pandas/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/project/pandas/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/project/pandas/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/project/pandas/"
+      href="http://localhost:1313/en/project/pandas/"
     /></url>
   <url>
-    <loc>http://localhost:1313/project/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/project/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/project/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/project/"
+      href="http://localhost:1313/en/project/"
     /></url>
   <url>
-    <loc>http://localhost:1313/project/pytorch/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/project/pytorch/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/project/pytorch/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/project/pytorch/"
+      href="http://localhost:1313/en/project/pytorch/"
     /></url>
   <url>
-    <loc>http://localhost:1313/project/scikit/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/project/scikit/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/project/scikit/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/project/scikit/"
+      href="http://localhost:1313/en/project/scikit/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/second-brain/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/second-brain/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/second-brain/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/second-brain/"
+      href="http://localhost:1313/en/tags/second-brain/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/wowchemy/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/wowchemy/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/wowchemy/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/wowchemy/"
+      href="http://localhost:1313/en/tags/wowchemy/"
     /></url>
   <url>
-    <loc>http://localhost:1313/post/second-brain/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/post/second-brain/</loc><lastmod>2023-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/post/second-brain/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/post/second-brain/"
+      href="http://localhost:1313/en/post/second-brain/"
     /></url>
   <url>
-    <loc>http://localhost:1313/post/data-visualization/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/post/data-visualization/</loc><lastmod>2023-10-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/post/data-visualization/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/post/data-visualization/"
+      href="http://localhost:1313/en/post/data-visualization/"
     /></url>
   <url>
-    <loc>http://localhost:1313/post/teach-courses/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/post/teach-courses/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/post/teach-courses/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/post/teach-courses/"
+      href="http://localhost:1313/en/post/teach-courses/"
     /></url>
   <url>
-    <loc>http://localhost:1313/experience/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/experience/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/experience/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/experience/"
+      href="http://localhost:1313/en/experience/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/hugo-blox-builder/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/hugo-blox-builder/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/hugo-blox-builder/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/hugo-blox-builder/"
+      href="http://localhost:1313/en/tags/hugo-blox-builder/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/javascript/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/javascript/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/javascript/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/javascript/"
+      href="http://localhost:1313/en/tags/javascript/"
     /></url>
   <url>
-    <loc>http://localhost:1313/teaching/js/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/teaching/js/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/teaching/js/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/teaching/js/"
+      href="http://localhost:1313/en/teaching/js/"
     /></url>
   <url>
-    <loc>http://localhost:1313/teaching/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/teaching/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/teaching/python/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/teaching/python/"
+      href="http://localhost:1313/en/teaching/python/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/python/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/python/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/python/"
+      href="http://localhost:1313/en/tags/python/"
     /></url>
   <url>
-    <loc>http://localhost:1313/teaching/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/teaching/</loc><lastmod>2023-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/teaching/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/teaching/"
+      href="http://localhost:1313/en/teaching/"
     /></url>
   <url>
-    <loc>http://localhost:1313/post/project-management/</loc><lastmod>2023-10-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/post/project-management/</loc><lastmod>2023-10-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/post/project-management/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/post/project-management/"
+      href="http://localhost:1313/en/post/project-management/"
     /></url>
   <url>
-    <loc>http://localhost:1313/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="http://localhost:1313/en/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication/preprint/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication/preprint/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication/preprint/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication/preprint/"
+      href="http://localhost:1313/en/publication/preprint/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication_types/article/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication_types/article/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication_types/article/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication_types/article/"
+      href="http://localhost:1313/en/publication_types/article/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/large-language-models/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/large-language-models/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/large-language-models/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/large-language-models/"
+      href="http://localhost:1313/en/tags/large-language-models/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication_types/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication_types/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication_types/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication_types/"
+      href="http://localhost:1313/en/publication_types/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication/"
+      href="http://localhost:1313/en/publication/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication/journal-article/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication/journal-article/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication/journal-article/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication/journal-article/"
+      href="http://localhost:1313/en/publication/journal-article/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication_types/article-journal/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication_types/article-journal/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication_types/article-journal/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication_types/article-journal/"
+      href="http://localhost:1313/en/publication_types/article-journal/"
     /></url>
   <url>
-    <loc>http://localhost:1313/tags/source-themes/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/tags/source-themes/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/tags/source-themes/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/tags/source-themes/"
+      href="http://localhost:1313/en/tags/source-themes/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication/conference-paper/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication/conference-paper/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication/conference-paper/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication/conference-paper/"
+      href="http://localhost:1313/en/publication/conference-paper/"
     /></url>
   <url>
-    <loc>http://localhost:1313/publication_types/paper-conference/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+    <loc>http://localhost:1313/en/publication_types/paper-conference/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
       href="http://localhost:1313/pt/publication_types/paper-conference/"
     /><xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/publication_types/paper-conference/"
+      href="http://localhost:1313/en/publication_types/paper-conference/"
     /></url></urlset>
