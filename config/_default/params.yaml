@@ -34,13 +34,13 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo:
-      text: "Your Name"
+    logo: logo.svg
+      text: ''
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} impossibilis. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
