@@ -114,7 +114,7 @@ code, pre {
 }
 
 .nav-link {
-    color: #fff;
+    /* color: #fff; */
     margin-left: 1.5rem;
     text-decoration: none;
     font-size: 1.1rem;
@@ -125,7 +125,7 @@ code, pre {
 display: flex !important;
 }
 
-/* Scroll */
+/* Scroll 
 .navbar.scrolled {
     background-color: rgba(0, 0, 0, 0.8);
-}
+}*/
