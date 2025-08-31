@@ -6,7 +6,9 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: sky #emerald
+
+enable_browser_language_detection: true
 
 # SEO
 marketing:

@@ -2,22 +2,33 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
-  languageCode: en
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
+  menu:
+    main:
+      - name: About
+        pageRef: /about
+        weight: 10
+      - name: Games
+        pageRef: /games
+        weight: 20
+      - name: News
+        pageRef: /news
+        weight: 30
+      - name: Contact
+        pageRef: /contact
+        weight: 40
 pt:
-  languageCode: pt
-  contentDir: content/pt
-  title: Portuguese website title...
-  params:
-    description: Site description in Portuguese...
-#  menu:
-#    main:
-#      - name: Sobre
-#        url: '#about'
-#        weight: 1
-
+  menu:
+    main:
+      - name: Acerca
+        pageRef: /about
+        weight: 10
+      - name: Jogos
+        pageRef: /games
+        weight: 20
+      - name: Novidades
+        pageRef: /news
+        weight: 30
+      - name: Contacto
+        pageRef: /contact
+        weight: 40

@@ -12,10 +12,40 @@ baseURL: 'https://phrazao.github.io/ihb/'
 ## LANGUAGE
 ############################
 
+# ... outras configurações ...
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: true
 removePathAccents: true
+languageCode: en
+#theme: hugo-blox-builder
+
+# Multilingual
+languages:
+  en:
+    languageCode: en
+    contentDir: content/en
+    weight: 1
+    title: impossibilis
+    params:
+      description: Producer and publisher of tabletop games.
+  pt:
+    languageCode: pt
+    contentDir: content/pt
+    weight: 2
+    title: impossibilis
+    params:
+      description: Produtora e editora de jogos de cartas e de tabuleiro.
+
+# Configura o menu para ser traduzível.
+# As entradas do menu serão definidas nos ficheiros de idioma.
+# Exemplo em: config/_default/languages.yaml
+# menus:
+#   main:
+#   - name: About
+#     url: '#about'
+#     weight: 10
+#   - ...
 
 ############################
 ## ADVANCED
