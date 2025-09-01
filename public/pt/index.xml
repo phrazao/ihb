@@ -41,11 +41,17 @@
       <link>http://localhost:1313/ihb/pt/about/</link>
       <pubDate>Sat, 23 Aug 2025 21:00:00 +0100</pubDate>
       <guid>http://localhost:1313/ihb/pt/about/</guid>
-      <description>&lt;p&gt;Welcome to impossibilis! We are a tabletop games producer and publisher.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# code block
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;print &amp;#39;3 backticks or&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;print &amp;#39;indent 4 spaces&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Belo código!&lt;/p&gt;
+      <description>&lt;h1 id=&#34;bem-vindo-à-impossibilis-somos-uma-produtora-e-editora-de-jogos-de-tabuleiro&#34;&gt;Bem-vindo à impossibilis! Somos uma produtora e editora de jogos de tabuleiro.&lt;/h1&gt;
+&lt;h1 id=&#34;sobre-nós&#34;&gt;Sobre Nós&lt;/h1&gt;
+&lt;h2 id=&#34;impossibilis-onde-o-impossível-é-possível&#34;&gt;Impossibilis: Onde o Impossível é possível!&lt;/h2&gt;
+&lt;p&gt;A nossa história começa com o nosso nome.
+&amp;ldquo;Impossibilis&amp;rdquo;, em latim, significa impossível – algo irrealizável, incrível, que desafia a lógica. Um nome universal que reflete a nossa missão: transformar ideias audaciosas em jogos cativantes.&lt;/p&gt;
+&lt;h1 id=&#34;quem-somos&#34;&gt;Quem somos?&lt;/h1&gt;
+&lt;p&gt;Somos a Impossibilis, Lda., uma empresa portuguesa apaixonada por jogos. Somos uma equipa pequena, mas com um grande sonho: criar jogos de cartas e tabuleiro que unam pessoas, despertem emoções e surpreendam pela originalidade. Num mercado dominado por gigantes, apostamos na criatividade, no rigor e no amor pelo que fazemos.&lt;/p&gt;
+&lt;h1 id=&#34;o-nosso-primeiro-projeto&#34;&gt;O nosso primeiro projeto&lt;/h1&gt;
+&lt;p&gt;Estamos a desenvolver um jogo de cartas e tabuleiro único, muito fácil de aprender, mas nada fácil de dominar, desenhado para oferecer momentos inesquecíveis. Cada detalhe – desde as ilustrações às mecânicas – é criado com dedicação para garantir uma experiência envolvente e divertida. É o nosso primeiro passo, o nosso grande desafio, e queremos partilhá-lo consigo.
+Junte-se à nossa aventura
+Quer descobrir como tornamos o impossível possível? Junte-se à nossa comunidade! Siga-nos nas redes sociais para ser o primeiro a saber de todas as novidades sobre o nosso primeiro lançamento.&lt;/p&gt;
 </description>
     </item>
     
@@ -320,7 +326,7 @@
 
 
 
-&lt;div id=&#34;chart-248573169&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-578369142&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -338,7 +344,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-248573169&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-578369142&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
