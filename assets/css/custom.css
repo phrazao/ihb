@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Lexend';
-    src: url('/fonts/lexend-variable.ttf') format('truetype');
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900; /* Suporta pesos variáveis */
     font-style: normal;
     font-display: swap;
@@ -120,7 +120,7 @@ code, pre {
     font-size: 1.1rem;
 }
 
-/* Mobile menu */
+/* Mobile menu 
 #nav-toggle:checked ~ #nav-menu {
 display: flex !important;
 }

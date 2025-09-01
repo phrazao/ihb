@@ -7,6 +7,7 @@
 title: impossibilis
 # Website URL
 baseURL: 'https://phrazao.github.io/ihb/'
+#baseURL: 'http://localhost:1313/ihb/'
 
 ############################
 ## LANGUAGE
@@ -29,6 +30,20 @@ languages:
     title: impossibilis
     params:
       description: Producer and publisher of tabletop games.
+    menu:
+      main:
+        - name: About
+          pageRef: /about
+          weight: 10
+        - name: Games
+          pageRef: /games
+          weight: 20
+        - name: News
+          pageRef: /news
+          weight: 30
+        - name: Contact
+          pageRef: /contact
+          weight: 40
   pt:
     languageCode: pt
     contentDir: content/pt
@@ -36,7 +51,21 @@ languages:
     title: impossibilis
     params:
       description: Produtora e editora de jogos de cartas e de tabuleiro.
-
+    menu:
+      main:
+        - name: Acerca
+          pageRef: /about
+          weight: 10
+        - name: Jogos
+          pageRef: /games
+          weight: 20
+        - name: Novidades
+          pageRef: /news
+          weight: 30
+        - name: Contacto
+          pageRef: /contact
+          weight: 40
+  
 # Configura o menu para ser traduzível.
 # As entradas do menu serão definidas nos ficheiros de idioma.
 # Exemplo em: config/_default/languages.yaml

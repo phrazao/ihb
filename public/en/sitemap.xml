@@ -24,6 +24,8 @@
       href="http://localhost:1313/ihb/en/event/"
     /></url>
   <url>
+    <loc>http://localhost:1313/ihb/en/about/</loc><lastmod>2025-08-23T21:00:00+01:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/ihb/en/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="pt"
