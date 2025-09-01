@@ -1,0 +1,32 @@
+# config/_default/languages.yaml
+
+en:
+  menu:
+    main:
+      - name: About
+        pageRef: about
+        weight: 10
+      - name: Games
+        pageRef: /games
+        weight: 20
+      - name: News
+        pageRef: /news
+        weight: 30
+      - name: Contact
+        pageRef: /contact
+        weight: 40
+pt:
+  menu:
+    main:
+      - name: Acerca
+        pageRef: /about
+        weight: 10
+      - name: Jogos
+        pageRef: /games
+        weight: 20
+      - name: Novidades
+        pageRef: /news
+        weight: 30
+      - name: Contacto
+        pageRef: /contact
+        weight: 40

@@ -10,6 +10,9 @@ appearance:
 
 enable_browser_language_detection: true
 
+# Tell Hugo Blox to load your custom SCSS file.
+custom_scss: 'scss/custom.scss'
+
 # SEO
 marketing:
   seo:

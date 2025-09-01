@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Suporta pesos variáveis */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-ExtraLight.woff2') format('woff2');
+    font-weight: 200; /* ExtraLight */
+    font-style: extralight;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-Light.woff2') format('woff2');
+    font-weight: 300; /* Light */
+    font-style: light;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-Medium.woff2') format('woff2');
+    font-weight: 500; /* Medium */
+    font-style: medium;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-Bold.woff2') format('woff2');
+    font-weight: 700; /* Bold */
+    font-style: bold;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+code, pre {
+    font-family: 'Basically A Mono Style 1', monospace;
+}
+
+
+/* Limita o tamanho da fonte no nome do autor e hero *
+.author-name, .hero-title {
+    font-size: 2rem !important; /* Ajusta para um tamanho razoável, ex.: 2rem (32px) *
+    max-width: 100%; /* Garante que não ultrapasse o container *
+    overflow-wrap: break-word; /* Quebra palavras longas se necessário *
+}
+
+/* Navbar fixa e transparente *
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    padding: 0.75rem 0;
+}
+*/
+/* Container interno *
+.navbar-container {
+    width: 100%; /* Usa 100% como base *
+    max-width: 940px; /* Limite máximo *
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Força 940px acima de 940px *
+@media (min-width: 940px) {
+    .navbar-container {
+        width: 940px; /* Força 940px *
+        padding: 0 2rem;
+    }
+}
+    */
+
+/* Logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+/*
+ * SOLUÇÃO DEFINITIVA PARA O TAMANHO DO LOGO
+ * Usa um seletor de alta especificidade (ID + classe) para garantir
+ * que esta regra anula a regra base do tema ('height: 1em').
+*/
+#site-header .navbar-brand svg {
+  height: 50px !important; /* Define a altura exata que queres */
+  width: auto !important;   /* Garante que a largura se ajusta para manter a proporção */
+}
+
+/* Garante que a regra também se aplica a imagens, caso mudes o formato do logo */
+#site-header .navbar-brand img {
+  height: 50px !important;
+  width: auto !important;
+}
+
+/* Logo *
+#site-header .navbar-brand img,
+#site-header .navbar-brand svg {
+    height: 50px !important; /* Adicionado !important para garantir a sobreposição *
+    width: auto !important; /* Boa prática para manter a proporção *
+    vertical-align: middle;
+    margin: 0 0.5rem;
+}*/
+
+/* Menu principal */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+}
+
+.nav-link {
+    /* color: #fff; */
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Mobile menu 
+#nav-toggle:checked ~ #nav-menu {
+display: flex !important;
+}
+
+/* Scroll 
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}*/

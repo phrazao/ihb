@@ -1,0 +1,827 @@
+/home/phrazao/hugo/hugo-blox-builder/
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── hugo-blox-builder.code-workspace
+├── LICENSE.md
+├── modules
+│   ├── blox-analytics
+│   │   ├── go.mod
+│   │   ├── hugo.yaml
+│   │   ├── layouts
+│   │   │   └── _partials
+│   │   │       └── blox-analytics
+│   │   │           ├── index.html
+│   │   │           ├── services
+│   │   │           │   ├── baidu_tongji.html
+│   │   │           │   ├── fathom.html
+│   │   │           │   ├── google_analytics.html
+│   │   │           │   ├── google_tag_manager.html
+│   │   │           │   ├── index.html
+│   │   │           │   ├── microsoft_clarity.html
+│   │   │           │   ├── pirsch.html
+│   │   │           │   └── plausible.html
+│   │   │           └── verification.html
+│   │   └── README.md
+│   ├── blox-plugin-decap-cms
+│   │   ├── config.yaml
+│   │   ├── data
+│   │   │   └── decap_cms_config.yaml
+│   │   ├── functions
+│   │   │   ├── generate.html
+│   │   │   └── parse.html
+│   │   ├── go.mod
+│   │   ├── README.md
+│   │   └── templates
+│   │       ├── single.decap_cms_config.yml
+│   │       └── single.html
+│   ├── blox-plugin-netlify
+│   │   ├── config.yaml
+│   │   ├── go.mod
+│   │   ├── README.md
+│   │   └── src
+│   │       └── layouts
+│   │           ├── index.headers
+│   │           └── index.redirects
+│   ├── blox-plugin-reveal
+│   │   ├── assets
+│   │   │   ├── css
+│   │   │   │   └── libs
+│   │   │   │       └── chroma
+│   │   │   │           ├── dracula.css
+│   │   │   │           ├── github-dark.css
+│   │   │   │           └── github-light.css
+│   │   │   └── js
+│   │   │       └── hugoblox-slides.js
+│   │   ├── config.yaml
+│   │   ├── go.mod
+│   │   ├── layouts
+│   │   │   ├── _partials
+│   │   │   │   └── slides.html
+│   │   │   ├── _shortcodes
+│   │   │   │   ├── fragment.html
+│   │   │   │   ├── slide.html
+│   │   │   │   └── speaker_note.html
+│   │   │   └── slides
+│   │   │       ├── baseof.html
+│   │   │       ├── list.html
+│   │   │       └── single.html
+│   │   └── README.md
+│   └── blox-tailwind
+│       ├── assets
+│       │   ├── css
+│       │   │   ├── blox
+│       │   │   │   ├── all.css
+│       │   │   │   ├── biography.css
+│       │   │   │   ├── navbar.css
+│       │   │   │   └── skills.css
+│       │   │   ├── chroma.css
+│       │   │   ├── color-utilities.css
+│       │   │   ├── components
+│       │   │   │   ├── all.css
+│       │   │   │   ├── author-notes.css
+│       │   │   │   ├── cards.css
+│       │   │   │   ├── charts.css
+│       │   │   │   ├── copy.css
+│       │   │   │   ├── math.css
+│       │   │   │   ├── page.css
+│       │   │   │   ├── sidebar-left.css
+│       │   │   │   ├── steps.css
+│       │   │   │   └── task-list.css
+│       │   │   ├── config
+│       │   │   │   ├── safelist.css
+│       │   │   │   ├── tailwind.css
+│       │   │   │   └── theme.css
+│       │   │   ├── framework
+│       │   │   │   ├── base.css
+│       │   │   │   └── components.css
+│       │   │   ├── libs
+│       │   │   │   └── chroma
+│       │   │   │       ├── dark.css
+│       │   │   │       └── light.css
+│       │   │   ├── main.css
+│       │   │   ├── README.md
+│       │   │   ├── themes
+│       │   │   │   ├── blue.css
+│       │   │   │   ├── cyan.css
+│       │   │   │   ├── emerald.css
+│       │   │   │   ├── green.css
+│       │   │   │   ├── indigo.css
+│       │   │   │   ├── purple.css
+│       │   │   │   ├── red.css
+│       │   │   │   ├── rose.css
+│       │   │   │   ├── sky.css
+│       │   │   │   ├── teal.css
+│       │   │   │   └── zinc.css
+│       │   │   └── views
+│       │   │       ├── all.css
+│       │   │       └── attachments.css
+│       │   ├── dist
+│       │   │   ├── font
+│       │   │   │   ├── Inter.var.woff2
+│       │   │   │   └── RobotoSlab-VariableFont_wght.ttf
+│       │   │   ├── lib
+│       │   │   │   ├── alpinejs
+│       │   │   │   │   └── cdn.min.js
+│       │   │   │   ├── katex
+│       │   │   │   │   ├── auto-render.min.js
+│       │   │   │   │   ├── fonts
+│       │   │   │   │   │   ├── KaTeX_AMS-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_AMS-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_AMS-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Caligraphic-Bold.ttf
+│       │   │   │   │   │   ├── KaTeX_Caligraphic-Bold.woff
+│       │   │   │   │   │   ├── KaTeX_Caligraphic-Bold.woff2
+│       │   │   │   │   │   ├── KaTeX_Caligraphic-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Caligraphic-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Caligraphic-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Fraktur-Bold.ttf
+│       │   │   │   │   │   ├── KaTeX_Fraktur-Bold.woff
+│       │   │   │   │   │   ├── KaTeX_Fraktur-Bold.woff2
+│       │   │   │   │   │   ├── KaTeX_Fraktur-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Fraktur-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Fraktur-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Main-BoldItalic.ttf
+│       │   │   │   │   │   ├── KaTeX_Main-BoldItalic.woff
+│       │   │   │   │   │   ├── KaTeX_Main-BoldItalic.woff2
+│       │   │   │   │   │   ├── KaTeX_Main-Bold.ttf
+│       │   │   │   │   │   ├── KaTeX_Main-Bold.woff
+│       │   │   │   │   │   ├── KaTeX_Main-Bold.woff2
+│       │   │   │   │   │   ├── KaTeX_Main-Italic.ttf
+│       │   │   │   │   │   ├── KaTeX_Main-Italic.woff
+│       │   │   │   │   │   ├── KaTeX_Main-Italic.woff2
+│       │   │   │   │   │   ├── KaTeX_Main-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Main-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Main-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Math-BoldItalic.ttf
+│       │   │   │   │   │   ├── KaTeX_Math-BoldItalic.woff
+│       │   │   │   │   │   ├── KaTeX_Math-BoldItalic.woff2
+│       │   │   │   │   │   ├── KaTeX_Math-Italic.ttf
+│       │   │   │   │   │   ├── KaTeX_Math-Italic.woff
+│       │   │   │   │   │   ├── KaTeX_Math-Italic.woff2
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Bold.ttf
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Bold.woff
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Bold.woff2
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Italic.ttf
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Italic.woff
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Italic.woff2
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_SansSerif-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Script-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Script-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Script-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Size1-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Size1-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Size1-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Size2-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Size2-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Size2-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Size3-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Size3-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Size3-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Size4-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Size4-Regular.woff
+│       │   │   │   │   │   ├── KaTeX_Size4-Regular.woff2
+│       │   │   │   │   │   ├── KaTeX_Typewriter-Regular.ttf
+│       │   │   │   │   │   ├── KaTeX_Typewriter-Regular.woff
+│       │   │   │   │   │   └── KaTeX_Typewriter-Regular.woff2
+│       │   │   │   │   ├── katex.min.css
+│       │   │   │   │   └── katex.min.js
+│       │   │   │   ├── markmap
+│       │   │   │   │   └── index.js
+│       │   │   │   ├── mermaid
+│       │   │   │   │   └── mermaid.min.js
+│       │   │   │   └── plotly
+│       │   │   │       └── plotly.min.js
+│       │   │   ├── pagefind
+│       │   │   │   ├── pagefind-ui.css
+│       │   │   │   └── pagefind-ui.js
+│       │   │   └── wc.min.css
+│       │   ├── js
+│       │   │   ├── hb-citation.js
+│       │   │   ├── hb-clipboard.js
+│       │   │   ├── hb-code-copy.js
+│       │   │   ├── hb-head.js
+│       │   │   ├── hb-i18n.js
+│       │   │   ├── hb-init.js
+│       │   │   ├── hb-mermaid-config.js
+│       │   │   ├── hb-nav.js
+│       │   │   ├── hb-notifier.js
+│       │   │   ├── hb-sidebar.js
+│       │   │   ├── hb-theme.js
+│       │   │   ├── katex-config.js
+│       │   │   └── vendor-libs.js
+│       │   └── media
+│       │       ├── icon.png
+│       │       └── icons
+│       │           └── brands
+│       │               ├── coursera.svg
+│       │               ├── datacamp.svg
+│       │               └── edx.svg
+│       ├── blox
+│       │   ├── collection
+│       │   │   └── block.html
+│       │   ├── cta-button-list
+│       │   │   └── block.html
+│       │   ├── cta-card
+│       │   │   └── block.html
+│       │   ├── cta-image-paragraph
+│       │   │   └── block.html
+│       │   ├── features
+│       │   │   └── block.html
+│       │   ├── hero
+│       │   │   └── block.html
+│       │   ├── markdown
+│       │   │   └── block.html
+│       │   ├── resume-awards
+│       │   │   └── block.html
+│       │   ├── resume-biography
+│       │   │   └── block.html
+│       │   ├── resume-biography-3
+│       │   │   └── block.html
+│       │   ├── resume-experience
+│       │   │   └── block.html
+│       │   ├── resume-languages
+│       │   │   └── block.html
+│       │   ├── resume-skills
+│       │   │   └── block.html
+│       │   ├── stats
+│       │   │   └── block.html
+│       │   └── testimonials
+│       │       └── block.html
+│       ├── data
+│       │   ├── address_formats.toml
+│       │   ├── blox_aliases.yaml
+│       │   ├── hugoblox.yaml
+│       │   ├── icons
+│       │   │   ├── academicons.json
+│       │   │   ├── brands.yaml
+│       │   │   ├── devicon.json
+│       │   │   ├── hb.yaml
+│       │   │   └── hero.json
+│       │   ├── languages.yaml
+│       │   ├── link_types.yaml
+│       │   └── page_sharer.yaml
+│       ├── go.mod
+│       ├── hugo.yaml
+│       ├── i18n
+│       │   ├── ar.yaml
+│       │   ├── bn.yaml
+│       │   ├── ca.yaml
+│       │   ├── cs.yaml
+│       │   ├── da.yaml
+│       │   ├── de.yaml
+│       │   ├── el.yaml
+│       │   ├── en.yaml
+│       │   ├── es.yaml
+│       │   ├── et.yaml
+│       │   ├── eu.yaml
+│       │   ├── fa.yaml
+│       │   ├── fi.yaml
+│       │   ├── fr.yaml
+│       │   ├── he.yaml
+│       │   ├── hr.yaml
+│       │   ├── hu.yaml
+│       │   ├── id.yaml
+│       │   ├── it.yaml
+│       │   ├── ja.yaml
+│       │   ├── km.yaml
+│       │   ├── ko.yaml
+│       │   ├── lt.yaml
+│       │   ├── lv.yaml
+│       │   ├── mg.yaml
+│       │   ├── ms-Arab.yaml
+│       │   ├── ms.yaml
+│       │   ├── nb.yaml
+│       │   ├── nl.yaml
+│       │   ├── pl.yaml
+│       │   ├── pt.yaml
+│       │   ├── ro.yaml
+│       │   ├── ru.yaml
+│       │   ├── so.yaml
+│       │   ├── sv.yaml
+│       │   ├── tr.yaml
+│       │   ├── uk.yaml
+│       │   ├── vi.yaml
+│       │   ├── zh-Hant.yaml
+│       │   └── zh.yaml
+│       ├── images
+│       │   ├── screenshot.png
+│       │   └── tn.png
+│       ├── layouts
+│       │   ├── 404.html
+│       │   ├── baseof.html
+│       │   ├── docs
+│       │   │   ├── list.html
+│       │   │   └── single.html
+│       │   ├── home.backlinks.json
+│       │   ├── home.html
+│       │   ├── index.webmanifest
+│       │   ├── landing
+│       │   │   ├── list.html
+│       │   │   └── single.html
+│       │   ├── list.html
+│       │   ├── _markup
+│       │   │   ├── render-codeblock-markmap.html
+│       │   │   ├── render-codeblock-mermaid.html
+│       │   │   ├── render-image.html
+│       │   │   ├── render-link.backlinks.json
+│       │   │   └── render-link.html
+│       │   ├── _partials
+│       │   │   ├── comments
+│       │   │   │   ├── commento.html
+│       │   │   │   ├── disqus.html
+│       │   │   │   └── giscus.html
+│       │   │   ├── comments.html
+│       │   │   ├── components
+│       │   │   │   ├── backlinks.html
+│       │   │   │   ├── breadcrumb.html
+│       │   │   │   ├── feedback.html
+│       │   │   │   ├── footers
+│       │   │   │   │   └── minimal.html
+│       │   │   │   ├── headers
+│       │   │   │   │   ├── floating-theme-toggler.html
+│       │   │   │   │   ├── navbar.html
+│       │   │   │   │   └── navbar-simple.html
+│       │   │   │   ├── language-chooser.html
+│       │   │   │   ├── last-edited.html
+│       │   │   │   ├── next-in-series.html
+│       │   │   │   ├── page_sharer.html
+│       │   │   │   ├── paginator.html
+│       │   │   │   ├── search-modal.html
+│       │   │   │   ├── sidebar.html
+│       │   │   │   └── toc.html
+│       │   │   ├── css.html
+│       │   │   ├── docs_layout.html
+│       │   │   ├── functions
+│       │   │   │   ├── build_links.html
+│       │   │   │   ├── get_address.html
+│       │   │   │   ├── get_author_name.html
+│       │   │   │   ├── get_event_dates.html
+│       │   │   │   ├── get_featured_image.html
+│       │   │   │   ├── get_hook.html
+│       │   │   │   ├── get_icon.html
+│       │   │   │   ├── get_logo.html
+│       │   │   │   ├── get_logo_url.html
+│       │   │   │   ├── get_page_title.html
+│       │   │   │   ├── get_site_icon.html
+│       │   │   │   ├── get_sort_by_parameter.html
+│       │   │   │   ├── has_attachments.html
+│       │   │   │   ├── parse_block_v2.html
+│       │   │   │   ├── process_responsive_image.html
+│       │   │   │   └── render_view.html
+│       │   │   ├── hbx
+│       │   │   │   ├── resolve-block-param.html
+│       │   │   │   ├── resolve.html
+│       │   │   │   └── sections.html
+│       │   │   ├── init.html
+│       │   │   ├── jsonld
+│       │   │   │   ├── article.html
+│       │   │   │   ├── business.html
+│       │   │   │   ├── event.html
+│       │   │   │   ├── main.html
+│       │   │   │   └── website.html
+│       │   │   ├── landing_page.html
+│       │   │   ├── libraries.html
+│       │   │   ├── notification-container.html
+│       │   │   ├── page_author_card.html
+│       │   │   ├── page_author.html
+│       │   │   ├── page_edit.html
+│       │   │   ├── page_footer.html
+│       │   │   ├── page_links_div.html
+│       │   │   ├── page_links.html
+│       │   │   ├── page_metadata_authors.html
+│       │   │   ├── page_related.html
+│       │   │   ├── site_footer.html
+│       │   │   ├── site_footer_license.html
+│       │   │   ├── site_head.html
+│       │   │   ├── social_links.html
+│       │   │   ├── tags.html
+│       │   │   └── views
+│       │   │       ├── article-grid--end.html
+│       │   │       ├── article-grid.html
+│       │   │       ├── article-grid--start.html
+│       │   │       ├── card--end.html
+│       │   │       ├── card.html
+│       │   │       ├── card--start.html
+│       │   │       ├── citation--end.html
+│       │   │       ├── citation.html
+│       │   │       ├── citation--start.html
+│       │   │       ├── date-title-summary--end.html
+│       │   │       ├── date-title-summary.html
+│       │   │       └── date-title-summary--start.html
+│       │   ├── robots.txt
+│       │   ├── rss.xml
+│       │   ├── _shortcodes
+│       │   │   ├── audio.html
+│       │   │   ├── bilibili.html
+│       │   │   ├── callout.html
+│       │   │   ├── card.html
+│       │   │   ├── cards.html
+│       │   │   ├── chart.html
+│       │   │   ├── cite.html
+│       │   │   ├── icon.html
+│       │   │   ├── include.html
+│       │   │   ├── math.html
+│       │   │   ├── mention.html
+│       │   │   ├── spoiler.html
+│       │   │   ├── steps.html
+│       │   │   ├── table.html
+│       │   │   ├── toc.html
+│       │   │   └── video.html
+│       │   ├── single.html
+│       │   ├── sitemap.xml
+│       │   ├── taxonomy.html
+│       │   └── terms.html
+│       ├── package.json
+│       ├── pnpm-lock.yaml
+│       ├── pnpm-workspace.yaml
+│       ├── README.md
+│       └── theme.toml
+├── package.json
+├── pnpm-lock.yaml
+├── poetry.lock
+├── pyproject.toml
+├── README.md
+├── README.zh.md
+├── scripts
+│   ├── list_language_packs.py
+│   ├── release_modules.py
+│   ├── rm-hugo-cache.sh
+│   ├── sync_i18n.py
+│   ├── view-starter-dev.sh
+│   └── view-starter-prod.sh
+├── starters
+│   ├── academic-cv
+│   │   ├── assets
+│   │   │   └── media
+│   │   │       ├── icons
+│   │   │       └── stacked-peaks.svg
+│   │   ├── config
+│   │   │   └── _default
+│   │   │       ├── hugo.yaml
+│   │   │       ├── languages.yaml
+│   │   │       ├── menus.yaml
+│   │   │       ├── module.yaml
+│   │   │       └── params.yaml
+│   │   ├── content
+│   │   │   ├── authors
+│   │   │   │   ├── admin
+│   │   │   │   │   ├── avatar.jpg
+│   │   │   │   │   └── _index.md
+│   │   │   │   └── _index.md
+│   │   │   ├── event
+│   │   │   │   ├── example
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   └── _index.md
+│   │   │   ├── experience.md
+│   │   │   ├── _index.md
+│   │   │   ├── post
+│   │   │   │   ├── data-visualization
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   ├── index.md
+│   │   │   │   │   ├── line-chart.json
+│   │   │   │   │   └── results.csv
+│   │   │   │   ├── get-started
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── _index.md
+│   │   │   │   ├── project-management
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── second-brain
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   └── teach-courses
+│   │   │   │       ├── ambient-piano.mp3
+│   │   │   │       ├── featured.jpg
+│   │   │   │       └── index.md
+│   │   │   ├── project
+│   │   │   │   ├── pandas
+│   │   │   │   │   ├── featured.png
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── pytorch
+│   │   │   │   │   ├── featured.png
+│   │   │   │   │   └── index.md
+│   │   │   │   └── scikit
+│   │   │   │       ├── featured.png
+│   │   │   │       └── index.md
+│   │   │   ├── projects.md
+│   │   │   ├── publication
+│   │   │   │   ├── conference-paper
+│   │   │   │   │   ├── cite.bib
+│   │   │   │   │   ├── conference-paper.pdf
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── _index.md
+│   │   │   │   ├── journal-article
+│   │   │   │   │   ├── cite.bib
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   └── preprint
+│   │   │   │       ├── featured.jpg
+│   │   │   │       └── index.md
+│   │   │   └── teaching
+│   │   │       ├── _index.md
+│   │   │       ├── js
+│   │   │       │   ├── ambient-piano.mp3
+│   │   │       │   ├── featured.jpg
+│   │   │       │   └── index.md
+│   │   │       └── python
+│   │   │           ├── ambient-piano.mp3
+│   │   │           ├── featured.jpg
+│   │   │           └── index.md
+│   │   ├── go.mod
+│   │   ├── hugoblox.yaml
+│   │   ├── layouts
+│   │   │   └── partials
+│   │   │       └── hooks
+│   │   │           └── head-end
+│   │   │               └── github-button.html
+│   │   ├── LICENSE.md
+│   │   ├── netlify.toml
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── static
+│   │       └── uploads
+│   │           └── resume.pdf
+│   ├── blog
+│   │   ├── assets
+│   │   │   └── media
+│   │   │       └── icons
+│   │   │           └── custom
+│   │   ├── config
+│   │   │   └── _default
+│   │   │       ├── hugo.yaml
+│   │   │       ├── languages.yaml
+│   │   │       ├── menus.yaml
+│   │   │       ├── module.yaml
+│   │   │       └── params.yaml
+│   │   ├── content
+│   │   │   ├── authors
+│   │   │   │   ├── admin
+│   │   │   │   │   ├── avatar.jpg
+│   │   │   │   │   └── _index.md
+│   │   │   │   └── _index.md
+│   │   │   ├── blog
+│   │   │   │   ├── data-visualization
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   ├── index.md
+│   │   │   │   │   ├── line-chart.json
+│   │   │   │   │   └── results.csv
+│   │   │   │   ├── get-started
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── _index.md
+│   │   │   │   ├── project-management
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── second-brain
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   └── teach-courses
+│   │   │   │       ├── ambient-piano.mp3
+│   │   │   │       ├── featured.jpg
+│   │   │   │       └── index.md
+│   │   │   ├── _index.md
+│   │   │   ├── tags
+│   │   │   │   └── _index.md
+│   │   │   └── uses.md
+│   │   ├── go.mod
+│   │   ├── hugo-blox
+│   │   │   └── blox
+│   │   │       ├── all-access
+│   │   │       │   └── README.md
+│   │   │       └── community
+│   │   │           └── README.md
+│   │   ├── hugoblox.yaml
+│   │   ├── LICENSE.md
+│   │   ├── netlify.toml
+│   │   ├── notebooks
+│   │   │   └── blog-with-jupyter.ipynb
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── static
+│   │       └── uploads
+│   │           └── resume.pdf
+│   ├── documentation
+│   │   ├── assets
+│   │   │   └── media
+│   │   │       ├── icon.png
+│   │   │       ├── icons
+│   │   │       │   └── custom
+│   │   │       └── logo.svg
+│   │   ├── config
+│   │   │   └── _default
+│   │   │       ├── hugo.yaml
+│   │   │       ├── languages.yaml
+│   │   │       ├── menus.yaml
+│   │   │       ├── module.yaml
+│   │   │       └── params.yaml
+│   │   ├── content
+│   │   │   ├── authors
+│   │   │   │   ├── admin
+│   │   │   │   │   ├── avatar.jpg
+│   │   │   │   │   └── _index.md
+│   │   │   │   └── _index.md
+│   │   │   ├── blog
+│   │   │   │   ├── _index.md
+│   │   │   │   ├── v1.0.0
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   └── v2.0.0
+│   │   │   │       ├── featured.jpg
+│   │   │   │       └── index.md
+│   │   │   ├── community
+│   │   │   │   └── index.md
+│   │   │   ├── docs
+│   │   │   │   ├── getting-started.md
+│   │   │   │   ├── guide
+│   │   │   │   │   ├── configuration.md
+│   │   │   │   │   ├── _index.md
+│   │   │   │   │   ├── project-structure.md
+│   │   │   │   │   └── shortcodes
+│   │   │   │   │       ├── callout.md
+│   │   │   │   │       ├── cards.md
+│   │   │   │   │       ├── _index.md
+│   │   │   │   │       ├── steps.md
+│   │   │   │   │       └── toggle.md
+│   │   │   │   ├── _index.md
+│   │   │   │   └── reference
+│   │   │   │       ├── customization.md
+│   │   │   │       ├── i18n.md
+│   │   │   │       └── _index.md
+│   │   │   ├── _index.md
+│   │   │   └── showcase
+│   │   │       ├── _index.md
+│   │   │       └── nvidia
+│   │   │           ├── featured.webp
+│   │   │           └── index.md
+│   │   ├── go.mod
+│   │   ├── hugo-blox
+│   │   │   └── blox
+│   │   │       ├── all-access
+│   │   │       │   └── README.md
+│   │   │       └── community
+│   │   │           └── README.md
+│   │   ├── hugoblox.yaml
+│   │   ├── images
+│   │   │   ├── screenshot.png
+│   │   │   └── tn.png
+│   │   ├── LICENSE.md
+│   │   ├── netlify.toml
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── static
+│   │   │   └── uploads
+│   │   └── theme.toml
+│   ├── landing-page
+│   │   ├── assets
+│   │   │   └── media
+│   │   │       ├── bg-triangles.svg
+│   │   │       ├── build-website.png
+│   │   │       ├── coffee.jpg
+│   │   │       ├── icons
+│   │   │       │   └── custom
+│   │   │       ├── logo.svg
+│   │   │       └── testimonial-1.jpg
+│   │   ├── config
+│   │   │   └── _default
+│   │   │       ├── hugo.yaml
+│   │   │       ├── languages.yaml
+│   │   │       ├── menus.yaml
+│   │   │       ├── module.yaml
+│   │   │       └── params.yaml
+│   │   ├── content
+│   │   │   ├── authors
+│   │   │   │   ├── admin
+│   │   │   │   │   ├── avatar.jpg
+│   │   │   │   │   └── _index.md
+│   │   │   │   └── _index.md
+│   │   │   ├── blog
+│   │   │   │   ├── data-visualization
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   ├── index.md
+│   │   │   │   │   ├── line-chart.json
+│   │   │   │   │   └── results.csv
+│   │   │   │   ├── get-started
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── _index.md
+│   │   │   │   ├── project-management
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── second-brain
+│   │   │   │   │   ├── featured.jpg
+│   │   │   │   │   └── index.md
+│   │   │   │   └── teach-courses
+│   │   │   │       ├── ambient-piano.mp3
+│   │   │   │       ├── featured.jpg
+│   │   │   │       └── index.md
+│   │   │   ├── _index.md
+│   │   │   ├── privacy.md
+│   │   │   └── terms.md
+│   │   ├── go.mod
+│   │   ├── hugo-blox
+│   │   │   └── blox
+│   │   │       ├── all-access
+│   │   │       │   └── README.md
+│   │   │       └── community
+│   │   │           └── README.md
+│   │   ├── hugoblox.yaml
+│   │   ├── images
+│   │   │   ├── screenshot.png
+│   │   │   └── tn.png
+│   │   ├── LICENSE.md
+│   │   ├── netlify.toml
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── theme.toml
+│   ├── link-in-bio
+│   │   ├── assets
+│   │   │   └── media
+│   │   │       ├── bg-hue.svg
+│   │   │       └── icons
+│   │   │           └── custom
+│   │   ├── config
+│   │   │   └── _default
+│   │   │       ├── hugo.yaml
+│   │   │       ├── languages.yaml
+│   │   │       ├── module.yaml
+│   │   │       └── params.yaml
+│   │   ├── content
+│   │   │   ├── authors
+│   │   │   │   ├── admin
+│   │   │   │   │   ├── avatar.jpg
+│   │   │   │   │   └── _index.md
+│   │   │   │   └── _index.md
+│   │   │   └── _index.md
+│   │   ├── go.mod
+│   │   ├── hugo-blox
+│   │   │   └── blox
+│   │   │       ├── all-access
+│   │   │       │   └── README.md
+│   │   │       └── community
+│   │   │           └── README.md
+│   │   ├── hugoblox.yaml
+│   │   ├── layouts
+│   │   │   └── partials
+│   │   │       └── hooks
+│   │   │           └── body-end
+│   │   │               └── change-background-color.html
+│   │   ├── LICENSE.md
+│   │   ├── netlify.toml
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── static
+│   │       └── uploads
+│   │           └── resume.pdf
+│   └── resume
+│       ├── assets
+│       │   └── media
+│       │       ├── icons
+│       │       │   └── custom
+│       │       └── kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+│       ├── config
+│       │   └── _default
+│       │       ├── hugo.yaml
+│       │       ├── languages.yaml
+│       │       ├── menus.yaml
+│       │       ├── module.yaml
+│       │       └── params.yaml
+│       ├── content
+│       │   ├── authors
+│       │   │   ├── admin
+│       │   │   │   ├── avatar.jpg
+│       │   │   │   └── _index.md
+│       │   │   └── _index.md
+│       │   └── _index.md
+│       ├── go.mod
+│       ├── hugo-blox
+│       │   └── blox
+│       │       ├── all-access
+│       │       │   └── README.md
+│       │       └── community
+│       │           └── README.md
+│       ├── hugoblox.yaml
+│       ├── LICENSE.md
+│       ├── netlify.toml
+│       ├── package.json
+│       ├── README.md
+│       └── static
+│           └── uploads
+│               └── resume.pdf
+├── test
+│   ├── assets
+│   │   └── media
+│   │       └── cake.svg
+│   ├── config.yaml
+│   ├── content
+│   │   └── _index.md
+│   ├── go.mod
+│   ├── package.json
+│   └── pnpm-lock.yaml
+└── vite.config.js
+
+231 directories, 594 files
