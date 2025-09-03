@@ -39,37 +39,18 @@
     */
 
 /* Logo */
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-}
-/*
- * SOLUÇÃO DEFINITIVA PARA O TAMANHO DO LOGO
- * Usa um seletor de alta especificidade (ID + classe) para garantir
- * que esta regra anula a regra base do tema ('height: 1em').
-*/
-#site-header .navbar-brand svg {
-  height: 50px !important; /* Define a altura exata que queres */
-  width: auto !important;   /* Garante que a largura se ajusta para manter a proporção */
-}
-
-/* Garante que a regra também se aplica a imagens, caso mudes o formato do logo */
+#site-header .navbar-brand svg,
 #site-header .navbar-brand img {
   height: 50px !important;
   width: auto !important;
 }
 
-/* Logo *
-#site-header .navbar-brand img,
-#site-header .navbar-brand svg {
-    height: 50px !important; /* Adicionado !important para garantir a sobreposição *
-    width: auto !important; /* Boa prática para manter a proporção *
-    vertical-align: middle;
-    margin: 0 0.5rem;
-}*/
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
 
-/* Menu principal */
 .navbar-nav {
     display: flex;
     align-items: center;
@@ -82,6 +63,14 @@
     margin-left: 1.5rem;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+}
+
+code, pre {
+    font-family: 'Basically A Mono Style 1', monospace;
 }
 
 /* Mobile menu 

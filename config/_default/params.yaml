@@ -36,12 +36,23 @@ header:
   navbar:
     enable: true
     blox: "navbar"
+    align: "center"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo: 
       filename: logo.svg
       text:
+    button:
+      enable: true
+      text: "Contact"
+      url: "https://hugoblox.com/templates/"
+    # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
+    highlight_active_link: true
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: true
+    # If `show_translations` is enabled, do you wish to hide the current language name?
+    hide_language_name: false
 
 # Site footer
 footer:

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown | impossibilis</title>
-    <link>http://localhost:1313/ihb/en/tags/markdown/</link>
-      <atom:link href="http://localhost:1313/ihb/en/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://192.168.1.189:1313/ihb/en/tags/markdown/</link>
+      <atom:link href="http://192.168.1.189:1313/ihb/en/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <description>Markdown</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/ihb/media/logo.svg</url>
+      <url>http://192.168.1.189:1313/ihb/media/logo.svg</url>
       <title>Markdown</title>
-      <link>http://localhost:1313/ihb/en/tags/markdown/</link>
+      <link>http://192.168.1.189:1313/ihb/en/tags/markdown/</link>
     </image>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/ihb/en/post/get-started/</link>
+      <link>http://192.168.1.189:1313/ihb/en/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/post/get-started/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -124,33 +124,33 @@
     
     <item>
       <title>Pandas</title>
-      <link>http://localhost:1313/ihb/en/project/pandas/</link>
+      <link>http://192.168.1.189:1313/ihb/en/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/project/pandas/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/project/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>http://localhost:1313/ihb/en/project/pytorch/</link>
+      <link>http://192.168.1.189:1313/ihb/en/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/project/pytorch/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/project/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scikit-learn</title>
-      <link>http://localhost:1313/ihb/en/project/scikit/</link>
+      <link>http://192.168.1.189:1313/ihb/en/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/project/scikit/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/project/scikit/</guid>
       <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/ihb/en/post/second-brain/</link>
+      <link>http://192.168.1.189:1313/ihb/en/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/post/second-brain/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -261,9 +261,9 @@
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:1313/ihb/en/post/data-visualization/</link>
+      <link>http://192.168.1.189:1313/ihb/en/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/post/data-visualization/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -275,7 +275,7 @@
 
 
 
-&lt;div id=&#34;chart-948136752&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-821635794&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -293,7 +293,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-948136752&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-821635794&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -473,9 +473,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:1313/ihb/en/post/teach-courses/</link>
+      <link>http://192.168.1.189:1313/ihb/en/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/post/teach-courses/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/post/teach-courses/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -508,7 +508,7 @@ Crash --&gt; [*]
       impossibilis&lt;/span&gt;
   &lt;/span&gt;
   (2019).
-  &lt;a href=&#34;http://localhost:1313/ihb/en/publication/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
+  &lt;a href=&#34;http://192.168.1.189:1313/ihb/en/publication/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
   
 
   
@@ -631,7 +631,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/ihb/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://192.168.1.189:1313/ihb/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125&#34;/&gt;&lt;/svg&gt;
         Dataset
       &lt;/a&gt;
@@ -660,7 +660,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/ihb/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://192.168.1.189:1313/ihb/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0&#34;/&gt;&lt;/svg&gt;
         Poster
       &lt;/a&gt;
@@ -689,7 +689,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/ihb/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://192.168.1.189:1313/ihb/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         Source Document
       &lt;/a&gt;
@@ -872,7 +872,7 @@ Crash --&gt; [*]
         &lt;/span&gt;
   &lt;/span&gt;
   (2013).
-  &lt;a href=&#34;http://localhost:1313/ihb/en/publication/conference-paper/&#34; class=&#34;underline&#34;&gt;An example conference paper&lt;/a&gt;.
+  &lt;a href=&#34;http://192.168.1.189:1313/ihb/en/publication/conference-paper/&#34; class=&#34;underline&#34;&gt;An example conference paper&lt;/a&gt;.
   In &lt;em&gt;ICW&lt;/em&gt;.
   
 
@@ -912,7 +912,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/ihb/&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://192.168.1.189:1313/ihb/&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         PDF
       &lt;/a&gt;
@@ -1081,7 +1081,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://localhost:1313/ihb/en/publication/conference-paper/conference-paper.pdf&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;http://192.168.1.189:1313/ihb/en/publication/conference-paper/conference-paper.pdf&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         PDF
       &lt;/a&gt;
@@ -1195,7 +1195,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/ihb/en/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://192.168.1.189:1313/ihb/en/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1254,9 +1254,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:1313/ihb/en/post/project-management/</link>
+      <link>http://192.168.1.189:1313/ihb/en/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/post/project-management/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;

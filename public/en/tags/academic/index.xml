@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic | impossibilis</title>
-    <link>http://localhost:1313/ihb/en/tags/academic/</link>
-      <atom:link href="http://localhost:1313/ihb/en/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://192.168.1.189:1313/ihb/en/tags/academic/</link>
+      <atom:link href="http://192.168.1.189:1313/ihb/en/tags/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/ihb/media/logo.svg</url>
+      <url>http://192.168.1.189:1313/ihb/media/logo.svg</url>
       <title>Academic</title>
-      <link>http://localhost:1313/ihb/en/tags/academic/</link>
+      <link>http://192.168.1.189:1313/ihb/en/tags/academic/</link>
     </image>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/ihb/en/post/get-started/</link>
+      <link>http://192.168.1.189:1313/ihb/en/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ihb/en/post/get-started/</guid>
+      <guid>http://192.168.1.189:1313/ihb/en/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
