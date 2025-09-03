@@ -6,8 +6,8 @@
 # Website name
 title: impossibilis
 # Website URL
-baseURL: 'https://phrazao.github.io/ihb/'
-#baseURL: 'http://localhost:1313/ihb/'
+#baseURL: 'https://phrazao.github.io/ihb/'
+baseURL: 'http://localhost:1313/ihb/'
 
 ############################
 ## LANGUAGE
@@ -73,7 +73,7 @@ imaging:
   quality: 90
   anchor: Smart
   hint: picture
-timeout: 600000
+timeout: '60s'
 taxonomies:
   author: authors
   tag: tags

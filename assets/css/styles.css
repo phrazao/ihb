@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Lexend'; /*font-family: 'font-sans';*/
+    src: url('/fonts/Lexend-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 500; /*font-weight: 100 900;*/
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-ExtraLight.woff2') format('woff2');
+    font-weight: 200; /* ExtraLight */
+    font-style: extralight;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-Light.woff2') format('woff2');
+    font-weight: 300; /* Light */
+    font-style: light;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-Medium.woff2') format('woff2');
+    font-weight: 500; /* Medium */
+    font-style: medium;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}
+
+@font-face {
+    font-family: 'Basically A Mono Style 1';
+    src: url('/fonts/BasicallyAMonoStyle1-Bold.woff2') format('woff2');
+    font-weight: 700; /* Bold */
+    font-style: bold;
+    font-display: swap;
+    /* font-feature-settings: "ss01"; */
+}

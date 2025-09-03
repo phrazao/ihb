@@ -37,22 +37,11 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>Acerca</title>
       <link>http://192.168.1.189:1313/ihb/pt/about/</link>
       <pubDate>Sat, 23 Aug 2025 21:00:00 +0100</pubDate>
       <guid>http://192.168.1.189:1313/ihb/pt/about/</guid>
-      <description>&lt;h1 id=&#34;bem-vindo-à-impossibilis-somos-uma-produtora-e-editora-de-jogos-de-tabuleiro&#34;&gt;Bem-vindo à impossibilis! Somos uma produtora e editora de jogos de tabuleiro.&lt;/h1&gt;
-&lt;h1 id=&#34;sobre-nós&#34;&gt;Sobre Nós&lt;/h1&gt;
-&lt;h2 id=&#34;impossibilis-onde-o-impossível-é-possível&#34;&gt;Impossibilis: Onde o Impossível é possível!&lt;/h2&gt;
-&lt;p&gt;A nossa história começa com o nosso nome.
-&amp;ldquo;Impossibilis&amp;rdquo;, em latim, significa impossível – algo irrealizável, incrível, que desafia a lógica. Um nome universal que reflete a nossa missão: transformar ideias audaciosas em jogos cativantes.&lt;/p&gt;
-&lt;h1 id=&#34;quem-somos&#34;&gt;Quem somos?&lt;/h1&gt;
-&lt;p&gt;Somos a Impossibilis, Lda., uma empresa portuguesa apaixonada por jogos. Somos uma equipa pequena, mas com um grande sonho: criar jogos de cartas e tabuleiro que unam pessoas, despertem emoções e surpreendam pela originalidade. Num mercado dominado por gigantes, apostamos na criatividade, no rigor e no amor pelo que fazemos.&lt;/p&gt;
-&lt;h1 id=&#34;o-nosso-primeiro-projeto&#34;&gt;O nosso primeiro projeto&lt;/h1&gt;
-&lt;p&gt;Estamos a desenvolver um jogo de cartas e tabuleiro único, muito fácil de aprender, mas nada fácil de dominar, desenhado para oferecer momentos inesquecíveis. Cada detalhe – desde as ilustrações às mecânicas – é criado com dedicação para garantir uma experiência envolvente e divertida. É o nosso primeiro passo, o nosso grande desafio, e queremos partilhá-lo consigo.
-Junte-se à nossa aventura
-Quer descobrir como tornamos o impossível possível? Junte-se à nossa comunidade! Siga-nos nas redes sociais para ser o primeiro a saber de todas as novidades sobre o nosso primeiro lançamento.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -326,7 +315,7 @@ Quer descobrir como tornamos o impossível possível? Junte-se à nossa comunida
 
 
 
-&lt;div id=&#34;chart-569812437&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-295381764&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -344,7 +333,7 @@ Quer descobrir como tornamos o impossível possível? Junte-se à nossa comunida
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-569812437&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-295381764&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
